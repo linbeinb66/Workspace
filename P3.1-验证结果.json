@@ -1,0 +1,461 @@
+{
+  "phase": "P3.1",
+  "verifiedAt": "2026-10-31T10:09:38.349Z",
+  "commands": {
+    "dev": {
+      "command": "npm run dev",
+      "status": "默认5173实际启动，HTTP200；此前5174与生产4174完成隔离Edge验收；本轮服务验收后关闭"
+    },
+    "test": {
+      "command": "npm test",
+      "environment": "node",
+      "files": 17,
+      "passed": 201,
+      "failed": 0
+    },
+    "build": {
+      "command": "npm run build",
+      "status": "严格TypeScript与生产构建通过",
+      "assets": [
+        {
+          "file": "index-C4c5nZJB.js",
+          "bytes": 325284,
+          "gzipBytes": 106481
+        },
+        {
+          "file": "index-Cy18ZSnt.css",
+          "bytes": 41824,
+          "gzipBytes": 7759
+        }
+      ]
+    }
+  },
+  "training": {
+    "templates": "自编入门版：四分化默认，三分化可切换；非博主原版课程",
+    "records": "场次快照存目标，完成组手动保存；各自循环，结束时确认推进，工作组门槛",
+    "metrics": "体重可选，腰胸肩臂围度可独立保存，同日合并，体重均线排除无体重项"
+  },
+  "developmentBrowser": {
+    "origin": "http://127.0.0.1:5174",
+    "checks": [
+      "默认四分化；一键带入动作/3组/8~12次但零完成组；重复开始继续原场；部分保存不推进；确认完成后推进背日与高位下拉",
+      "三/四分化切换持久化、各自循环；围度可单独保存无虚构体重；同日体重/腰胸肩臂合并且刷新保留",
+      "真实JSON导出包含模板场次快照和围度"
+    ],
+    "responsive": [
+      {
+        "width": 320,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/report",
+        "overflow": false
+      }
+    ],
+    "browserErrors": [],
+    "day": "2026-10-31"
+  },
+  "productionBrowser": {
+    "origin": "http://127.0.0.1:4174/workbench",
+    "checks": [
+      "默认四分化；一键带入动作/3组/8~12次但零完成组；重复开始继续原场；部分保存不推进；确认完成后推进背日与高位下拉",
+      "三/四分化切换持久化、各自循环；围度可单独保存无虚构体重；同日体重/腰胸肩臂合并且刷新保留",
+      "真实JSON导出并确认恢复，场次快照、循环和围度保留"
+    ],
+    "responsive": [
+      {
+        "width": 320,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/report",
+        "overflow": false
+      }
+    ],
+    "browserErrors": [],
+    "day": "2026-10-31"
+  },
+  "productionBaseRegression": {
+    "checks": [
+      "最终dist在/workbench/子目录加载脚本和样式；训练录入后62.5推荐正确，刷新保留",
+      "根目录和子目录均可使用；主题与IDB壁纸刷新保留；生产包真实剪贴板复制通过"
+    ],
+    "browserErrors": []
+  },
+  "glassRegression": {
+    "checks": [
+      "旧外观默认透明54%/8px毛玻璃；滑块持久化；质感16px生效；侧栏/顶栏不做重复模糊",
+      "档位/透明度变化不重建视频或重置地址；流畅模式4px卡片且视频无全屏滤镜；实际帧率/分辨率采样可见",
+      "视频暂停/恢复与减少动态继续生效，暂停时不显示误导帧率"
+    ],
+    "responsive": [
+      {
+        "width": 320,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/plan",
+        "overflow": false
+      }
+    ],
+    "measurements": [
+      {
+        "mode": "old-filters",
+        "elapsedMs": 4001,
+        "compositorCallbacks": 59,
+        "callbackFps": 14.7,
+        "totalFrames": 61,
+        "droppedFrames": 2
+      },
+      {
+        "mode": "balanced",
+        "elapsedMs": 4001,
+        "compositorCallbacks": 60,
+        "callbackFps": 15,
+        "totalFrames": 60,
+        "droppedFrames": 1
+      },
+      {
+        "mode": "smooth",
+        "elapsedMs": 4001,
+        "compositorCallbacks": 60,
+        "callbackFps": 15,
+        "totalFrames": 62,
+        "droppedFrames": 1
+      }
+    ],
+    "measurementLimit": "专用Chrome、320×180约15fps测试WebM，非用户原MP4，不能据此承诺用户设备帧率提升",
+    "browserErrors": []
+  },
+  "actualWallpaper": {
+    "browser": "Edg/151.0.4129.86",
+    "environment": "Windows专用Edge无头，1440×1000；不代表日常窗口或真实手机",
+    "media": {
+      "width": 3840,
+      "height": 2160,
+      "duration": 10,
+      "rate": 1
+    },
+    "measurements": [
+      {
+        "mode": "old-card-filters",
+        "elapsedMs": 8001,
+        "compositorCallbacks": 480,
+        "callbackFps": 60,
+        "totalFrames": 480,
+        "droppedFrames": 0,
+        "readyState": 4,
+        "paused": false
+      },
+      {
+        "mode": "balanced",
+        "elapsedMs": 8001,
+        "compositorCallbacks": 480,
+        "callbackFps": 60,
+        "totalFrames": 480,
+        "droppedFrames": 0,
+        "readyState": 4,
+        "paused": false
+      },
+      {
+        "mode": "smooth",
+        "elapsedMs": 8001,
+        "compositorCallbacks": 479,
+        "callbackFps": 59.9,
+        "totalFrames": 480,
+        "droppedFrames": 0,
+        "readyState": 4,
+        "paused": false
+      }
+    ],
+    "browserErrors": [],
+    "conclusion": "三档约60fps，均0丢帧，未复现原卡顿；减少模糊开销但不能承诺帧率提升"
+  },
+  "visualReview": {
+    "status": "已查看实际MP4毛玻璃、健身桌面、手机浅深色和围度截图；手机底部导航增加底色；模板明细默认折叠",
+    "files": [
+      "../p31-glass-preview.png",
+      "../p31-fitness-preview.png",
+      "../plan-fitness-mobile.png",
+      "../plan-fitness-dark-mobile.png",
+      "../plan-measurements-mobile.png"
+    ]
+  },
+  "backup": {
+    "legacy": "旧版可选字段缺失兼容；新增字段需要本轮或更新版本读取",
+    "roundTrip": "单测模板快照及全部围度JSON往返；生产Edge实际下载后确认恢复",
+    "wallpaper": "JSON仍不含媒体文件，需单独保存；源文件未修改，不进入交付包"
+  },
+  "limits": [
+    "无头测试未复现日常Edge卡顿，实际设备需用户体验确认",
+    "无视频转码或插帧",
+    "无真实手机/用户服务器实测",
+    "P4/P5/P6尚未实现",
+    "固定入门模板，无编辑器；围度不分左右及无单项删除；目标值可选"
+  ],
+  "references": [
+    {
+      "name": "凯圣王/谭成义三分化原作者页面",
+      "url": "https://jingxuan.douyin.com/m/video/7623732958012198179"
+    },
+    {
+      "name": "ACSM2026",
+      "url": "https://acsm.org/resistance-training-guidelines-update-2026/"
+    },
+    {
+      "name": "VideoPlaybackQuality",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/getVideoPlaybackQuality"
+    }
+  ]
+}

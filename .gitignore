@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+*.local
+coverage/
+
+.portable-build/
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key

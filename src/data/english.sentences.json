@@ -1,0 +1,302 @@
+[
+  {
+    "id": "english-sentence-01",
+    "en": "Could you check the schedule with me?",
+    "cn": "你能和我核对一下时间表吗？",
+    "tag": "工作沟通"
+  },
+  {
+    "id": "english-sentence-02",
+    "en": "I will send the updated version tonight.",
+    "cn": "我今晚会发送更新后的版本。",
+    "tag": "工作沟通"
+  },
+  {
+    "id": "english-sentence-03",
+    "en": "Let us test the microphone before we start.",
+    "cn": "开始前我们测试一下麦克风吧。",
+    "tag": "直播现场"
+  },
+  {
+    "id": "english-sentence-04",
+    "en": "The sound is a little too loud.",
+    "cn": "声音有一点太大了。",
+    "tag": "直播现场"
+  },
+  {
+    "id": "english-sentence-05",
+    "en": "Please move the camera slightly to the left.",
+    "cn": "请把相机稍微向左移动一点。",
+    "tag": "直播现场"
+  },
+  {
+    "id": "english-sentence-06",
+    "en": "We have ten minutes before the next session.",
+    "cn": "距离下一场还有十分钟。",
+    "tag": "直播现场"
+  },
+  {
+    "id": "english-sentence-07",
+    "en": "Could you repeat the last part more slowly?",
+    "cn": "你能把最后一部分说慢一点吗？",
+    "tag": "沟通表达"
+  },
+  {
+    "id": "english-sentence-08",
+    "en": "I understand the goal, but I have a question.",
+    "cn": "我理解目标，但有一个问题。",
+    "tag": "沟通表达"
+  },
+  {
+    "id": "english-sentence-09",
+    "en": "What should we prepare for tomorrow?",
+    "cn": "我们明天需要准备什么？",
+    "tag": "工作沟通"
+  },
+  {
+    "id": "english-sentence-10",
+    "en": "Thank you for helping me finish this task.",
+    "cn": "谢谢你帮我完成这项任务。",
+    "tag": "工作沟通"
+  },
+  {
+    "id": "english-sentence-11",
+    "en": "I need a short break before we continue.",
+    "cn": "继续之前我需要短暂休息。",
+    "tag": "日常生活"
+  },
+  {
+    "id": "english-sentence-12",
+    "en": "Please let me know if the plan changes.",
+    "cn": "如果计划变了，请告诉我。",
+    "tag": "工作沟通"
+  },
+  {
+    "id": "english-sentence-13",
+    "en": "I have saved a copy on this device.",
+    "cn": "我已在这台设备上保存了一份副本。",
+    "tag": "数字生活"
+  },
+  {
+    "id": "english-sentence-14",
+    "en": "The file is too large to send right now.",
+    "cn": "这个文件太大，现在发不了。",
+    "tag": "数字生活"
+  },
+  {
+    "id": "english-sentence-15",
+    "en": "Can we try a simpler way first?",
+    "cn": "我们能先试一个更简单的方法吗？",
+    "tag": "沟通表达"
+  },
+  {
+    "id": "english-sentence-16",
+    "en": "I am still learning, so I may need some time.",
+    "cn": "我还在学习，所以可能需要一点时间。",
+    "tag": "学习表达"
+  },
+  {
+    "id": "english-sentence-17",
+    "en": "This example makes the idea much clearer.",
+    "cn": "这个例子让意思清楚多了。",
+    "tag": "学习表达"
+  },
+  {
+    "id": "english-sentence-18",
+    "en": "I would like to practise that sentence again.",
+    "cn": "我想再练一遍那个句子。",
+    "tag": "学习表达"
+  },
+  {
+    "id": "english-sentence-19",
+    "en": "How do you pronounce this word?",
+    "cn": "这个单词怎么发音？",
+    "tag": "学习表达"
+  },
+  {
+    "id": "english-sentence-20",
+    "en": "Could you explain it in another way?",
+    "cn": "你能换一种方式解释吗？",
+    "tag": "学习表达"
+  },
+  {
+    "id": "english-sentence-21",
+    "en": "I usually train after I finish work.",
+    "cn": "我通常在工作结束后训练。",
+    "tag": "健身日常"
+  },
+  {
+    "id": "english-sentence-22",
+    "en": "I have one more set to finish.",
+    "cn": "我还剩一组要完成。",
+    "tag": "健身日常"
+  },
+  {
+    "id": "english-sentence-23",
+    "en": "Is anyone using this machine?",
+    "cn": "有人正在用这台器械吗？",
+    "tag": "健身日常"
+  },
+  {
+    "id": "english-sentence-24",
+    "en": "Could we take turns using the bench?",
+    "cn": "我们能轮流用这张训练凳吗？",
+    "tag": "健身日常"
+  },
+  {
+    "id": "english-sentence-25",
+    "en": "I want to keep a steady pace today.",
+    "cn": "我今天想保持稳定的节奏。",
+    "tag": "健身日常"
+  },
+  {
+    "id": "english-sentence-26",
+    "en": "I paid for the tickets on behalf of the team.",
+    "cn": "我替团队垫付了票款。",
+    "tag": "报账沟通"
+  },
+  {
+    "id": "english-sentence-27",
+    "en": "I will submit the receipt after the trip.",
+    "cn": "出差后我会提交凭证。",
+    "tag": "报账沟通"
+  },
+  {
+    "id": "english-sentence-28",
+    "en": "Could you confirm the total amount?",
+    "cn": "你能确认一下总金额吗？",
+    "tag": "报账沟通"
+  },
+  {
+    "id": "english-sentence-29",
+    "en": "The payment has not arrived yet.",
+    "cn": "款项还没有到账。",
+    "tag": "报账沟通"
+  },
+  {
+    "id": "english-sentence-30",
+    "en": "Please keep the original receipt.",
+    "cn": "请保留原始凭证。",
+    "tag": "报账沟通"
+  },
+  {
+    "id": "english-sentence-31",
+    "en": "I finished two tasks and moved one to tomorrow.",
+    "cn": "我完成了两项任务，把一项移到了明天。",
+    "tag": "每日复盘"
+  },
+  {
+    "id": "english-sentence-32",
+    "en": "The main problem was a weak signal.",
+    "cn": "主要问题是信号弱。",
+    "tag": "每日复盘"
+  },
+  {
+    "id": "english-sentence-33",
+    "en": "Next time, I will check the equipment earlier.",
+    "cn": "下次我会更早检查设备。",
+    "tag": "每日复盘"
+  },
+  {
+    "id": "english-sentence-34",
+    "en": "We made good progress this week.",
+    "cn": "我们这周取得了不错的进展。",
+    "tag": "每日复盘"
+  },
+  {
+    "id": "english-sentence-35",
+    "en": "I need your support with the final check.",
+    "cn": "最后检查需要你的支持。",
+    "tag": "工作沟通"
+  },
+  {
+    "id": "english-sentence-36",
+    "en": "Would tomorrow afternoon work for you?",
+    "cn": "明天下午你方便吗？",
+    "tag": "安排时间"
+  },
+  {
+    "id": "english-sentence-37",
+    "en": "My shift sometimes ends after midnight.",
+    "cn": "我的班次有时在午夜后结束。",
+    "tag": "安排时间"
+  },
+  {
+    "id": "english-sentence-38",
+    "en": "I will be ready in about five minutes.",
+    "cn": "我大约五分钟后准备好。",
+    "tag": "安排时间"
+  },
+  {
+    "id": "english-sentence-39",
+    "en": "There is no need to rush the last step.",
+    "cn": "最后一步不用着急。",
+    "tag": "沟通表达"
+  },
+  {
+    "id": "english-sentence-40",
+    "en": "Let us decide on the next step together.",
+    "cn": "我们一起决定下一步吧。",
+    "tag": "沟通表达"
+  },
+  {
+    "id": "english-sentence-41",
+    "en": "I brought a bottle of water with me.",
+    "cn": "我随身带了一瓶水。",
+    "tag": "日常生活"
+  },
+  {
+    "id": "english-sentence-42",
+    "en": "The station is within walking distance.",
+    "cn": "车站步行就能到。",
+    "tag": "日常生活"
+  },
+  {
+    "id": "english-sentence-43",
+    "en": "Could I have the bill, please?",
+    "cn": "请给我账单好吗？",
+    "tag": "日常生活"
+  },
+  {
+    "id": "english-sentence-44",
+    "en": "I would prefer a quieter place.",
+    "cn": "我更想去一个安静些的地方。",
+    "tag": "日常生活"
+  },
+  {
+    "id": "english-sentence-45",
+    "en": "I will get back to you after lunch.",
+    "cn": "午饭后我会回复你。",
+    "tag": "工作沟通"
+  },
+  {
+    "id": "english-sentence-46",
+    "en": "The light looks better from this angle.",
+    "cn": "从这个角度看光线更好。",
+    "tag": "直播现场"
+  },
+  {
+    "id": "english-sentence-47",
+    "en": "Please leave enough space for the subtitles.",
+    "cn": "请给字幕留出足够的空间。",
+    "tag": "直播现场"
+  },
+  {
+    "id": "english-sentence-48",
+    "en": "We can review the recording after the show.",
+    "cn": "演出后我们可以看录制回放。",
+    "tag": "直播现场"
+  },
+  {
+    "id": "english-sentence-49",
+    "en": "Small steps can still lead to real progress.",
+    "cn": "小步前进也能带来真正的进步。",
+    "tag": "学习表达"
+  },
+  {
+    "id": "english-sentence-50",
+    "en": "I am glad I kept going today.",
+    "cn": "我很高兴今天坚持下来了。",
+    "tag": "每日复盘"
+  }
+]

@@ -1,0 +1,22 @@
+import { describe,expect,it } from 'vitest';
+import type { Session,SetLog } from '../types';
+import { trainingPlans } from '../data/trainingPlans';
+import { exerciseLibrary } from '../data/exercises';
+import { muscleRecency,nextTrainingDay,planProgress,planSnapshot,prescribedExercise,trainingPlanError } from './trainingPlan';
+import { recommend } from './recommend';
+import { weightTrend } from './fitness';
+const stamp='2026-10-31T12:00:00Z';const plan=trainingPlans[0]!;
+const session=(index=0):Session=>({id:'s',date:'2026-10-31',title:'模板训练',bodyParts:[],plan:planSnapshot(plan,plan.days[index]!),endedAt:stamp,planCompleted:true,updatedAt:stamp});
+const row=(isWarmup=false):SetLog=>({id:'r',sessionId:'s',exerciseId:'seed-bench',index:0,weight:40,reps:10,isWarmup,doneAt:stamp,updatedAt:stamp});
+describe('分化计划与实际记录分离',()=>{
+ it('编辑校验空名、空日、重复动作、非法组次/休息和不可用动作',()=>{const valid=structuredClone(plan);expect(trainingPlanError(valid)).toBeNull();expect(trainingPlanError({...valid,name:' '})).toContain('名称');expect(trainingPlanError({...valid,days:[]})).toContain('训练日');const change=(patch:object)=>({...valid,days:[{...valid.days[0]!,items:[{...valid.days[0]!.items[0]!,...patch}]}]});for(const patch of [{targetSets:0},{targetSets:21},{targetSets:1.5},{repMin:12,repMax:8},{repMax:101},{restSec:-1},{restSec:3601}])expect(trainingPlanError(change(patch))).not.toBeNull();expect(trainingPlanError(change({restSec:0}))).toBeNull();expect(trainingPlanError(valid,new Set())).toContain('不可用');expect(trainingPlanError({...valid,days:[{...valid.days[0]!,items:[valid.days[0]!.items[0]!,valid.days[0]!.items[0]!]}]})).toContain('重复')});
+ it('自定义次数区间首次推荐不再硬写10次',()=>{const ex=exerciseLibrary(stamp)[0]!;expect(recommend({...ex,repMin:5,repMax:8},[]).reason).toContain('8 次');expect(recommend({...ex,repMin:15,repMax:20},[]).reason).toContain('15 次')});
+ it('所有模板动作都存在，固定8~12次，每次不超过15工作组',()=>{const ids=new Set(exerciseLibrary(stamp).map((e)=>e.id));for(const p of trainingPlans)for(const d of p.days){expect(d.items.reduce((n,i)=>n+i.targetSets,0)).toBeLessThanOrEqual(15);for(const i of d.items){expect(ids.has(i.exerciseId)).toBe(true);expect(i.repMin).toBe(8);expect(i.repMax).toBe(12);}}});
+ it('没有记录从第一天开始，快照不与模板共享引用',()=>{expect(nextTrainingDay(plan,[],[],'2026-10-31').id).toBe('chest');const copy=planSnapshot(plan,plan.days[0]!);copy.items[0]!.targetSets=99;expect(plan.days[0]!.items[0]!.targetSets).toBe(3)});
+ it('进行中、未确认完成、零组和全热身均不推进',()=>{for(const s of [{...session(),endedAt:undefined},{...session(),planCompleted:false},session()])expect(nextTrainingDay(plan,[s],[],s.date).id).toBe('chest');expect(nextTrainingDay(plan,[session()],[row(true)],'2026-10-31').id).toBe('chest')});
+ it('完成且有工作组才推进，第四天后循环，另一模板独立',()=>{expect(nextTrainingDay(plan,[session()],[row()],'2026-10-31').id).toBe('back');expect(nextTrainingDay(plan,[session(3)],[row()],'2026-10-31').id).toBe('chest');expect(nextTrainingDay(trainingPlans[1]!,[session()],[row()],'2026-10-31').id).toBe('push')});
+ it('回看排除未来，删除历史及改为热身后重新派生',()=>{expect(nextTrainingDay(plan,[session()],[row()],'2026-10-30').id).toBe('chest');expect(nextTrainingDay(plan,[],[row()],'2026-10-31').id).toBe('chest');expect(nextTrainingDay(plan,[session()],[row(true)],'2026-10-31').id).toBe('chest')});
+ it('工作组进度排除热身与其他场次，配置覆盖不修改原动作',()=>{expect(planProgress(session(),[row(),row(true),{...row(),sessionId:'other'}])[0]!.completed).toBe(1);const ex=exerciseLibrary(stamp)[0]!;expect(prescribedExercise(ex,{...plan.days[0]!.items[0]!,targetSets:2}).targetSets).toBe(2);expect(ex.targetSets).toBe(3)});
+ it('肌群间隔取实际工作组，排除未来和热身',()=>{const result=muscleRecency(exerciseLibrary(stamp),[session()],[row()],'2026-10-31');expect(result.find((p)=>p.part==='胸')!.date).toBe('2026-10-31');expect(muscleRecency(exerciseLibrary(stamp),[session()],[row(true)],'2026-10-31')[0]!.date).toBeUndefined()});
+ it('只记围度不会生成零体重或污染均线',()=>{expect(weightTrend([{date:'2026-10-30',waistCm:85,updatedAt:stamp},{date:'2026-10-31',weightKg:78,updatedAt:stamp}],'2026-10-31')).toMatchObject([{weightKg:78,average:78}])});
+});

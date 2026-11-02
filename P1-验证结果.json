@@ -1,0 +1,242 @@
+{
+  "phase": "P1",
+  "unitTests": {
+    "testsPassed": 91,
+    "command": "npm test",
+    "environment": "node",
+    "filesPassed": 8
+  },
+  "build": {
+    "javascriptKB": 228.5,
+    "javascriptGzipKB": 75.45,
+    "command": "npm run build",
+    "strictTypecheck": "passed"
+  },
+  "browser": {
+    "phase": "P1",
+    "http": 200,
+    "checks": [
+      "新增日程实时更新首页；重要事项不进分母；进度与连续值正确；开始跳对应模块",
+      "日程编辑、删除确认及取消正常；英语跳转正确；直接填写、+1、点满均能更新习惯 KPI",
+      "历史/未来日期切换；复制昨日重置完成且重复点击不增生；自动顺延保留同一 ID，刷新不累计",
+      "顺延开关控制补顺延；习惯增删保留历史；首页自定义问候持久化",
+      "修改日切不回改历史；03:59/04:00 实时切日；跨日打开的草稿保留原归属；同一 ID 顺延到新日",
+      "批量顺延原记录并展示来源；P1 数据导出→清空→导入后页面和 store 同步恢复"
+    ],
+    "responsive": [
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/english",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/english",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/english",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/english",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/more",
+        "overflow": false
+      }
+    ],
+    "browserErrors": []
+  },
+  "interactions": {
+    "checks": [
+      "编辑已有待办跨日后保存，不覆盖最新顺延日期和次数",
+      "习惯长按打开数值抽屉且不误加1；负数被拒绝且可继续修改",
+      "拖动左滑显示删除；取消与确认都符合预期",
+      "可见启用按钮触控区域至少44px"
+    ],
+    "browserErrors": []
+  },
+  "preview": {
+    "data": "isolated sample data",
+    "controlledClock": "2026-10-31T18:10:00+08:00",
+    "screenshots": [
+      "p1-home-mobile.png",
+      "p1-home-desktop.png",
+      "p1-plan-mobile.png",
+      "p1-plan-dark.png"
+    ]
+  },
+  "verificationLimit": "Windows Chrome viewport and pointer emulation; real iOS/Android deferred to P6"
+}

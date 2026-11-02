@@ -1,0 +1,7 @@
+[
+  { "id": "seed-schedule", "word": "schedule", "phonetic": "/ˈskedʒuːl/", "pos": "n.", "cn": "日程", "example": "Check the schedule before the show.", "exampleCn": "演出前查看日程。", "synonyms": ["plan"], "level": "职场" },
+  { "id": "seed-prepare", "word": "prepare", "phonetic": "/prɪˈper/", "pos": "v.", "cn": "准备", "example": "I prepare for the live show.", "exampleCn": "我为直播做准备。", "synonyms": [], "level": "CET4" },
+  { "id": "seed-progress", "word": "progress", "phonetic": "/ˈprɑːɡres/", "pos": "n.", "cn": "进步", "example": "Small steps bring progress.", "exampleCn": "小步前行也有进步。", "synonyms": [], "level": "CET4" },
+  { "id": "seed-receipt", "word": "receipt", "phonetic": "/rɪˈsiːt/", "pos": "n.", "cn": "收据", "example": "Keep the receipt for reimbursement.", "exampleCn": "保留收据用于报销。", "synonyms": [], "level": "职场" },
+  { "id": "seed-rest", "word": "rest", "phonetic": "/rest/", "pos": "n.", "cn": "休息", "example": "Take a short rest after work.", "exampleCn": "工作后稍作休息。", "synonyms": ["break"], "level": "CET4" }
+]

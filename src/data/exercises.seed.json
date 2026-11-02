@@ -1,0 +1,5 @@
+[
+  { "id": "seed-bench", "name": "杠铃卧推", "nameEn": "Barbell Bench Press", "category": "胸", "equipment": "杠铃", "isCompound": true, "increment": 2.5, "repMin": 8, "repMax": 12, "targetSets": 3, "source": "seed" },
+  { "id": "seed-squat", "name": "杠铃深蹲", "nameEn": "Barbell Squat", "category": "腿", "equipment": "杠铃", "isCompound": true, "increment": 5, "repMin": 8, "repMax": 12, "targetSets": 3, "source": "seed" },
+  { "id": "seed-row", "name": "哑铃划船", "nameEn": "Dumbbell Row", "category": "背", "equipment": "哑铃", "isCompound": true, "increment": 1, "repMin": 8, "repMax": 12, "targetSets": 3, "source": "seed" }
+]

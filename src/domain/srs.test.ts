@@ -1,0 +1,27 @@
+import { describe,expect,it } from 'vitest';
+import { englishWords,englishSentences,englishPassages,englishGrammar } from '../data/englishContent';
+import { addDays } from './plan';
+import { englishStats,lookupWord,makeStudyQueue,notebookWords,rateWord,studyLog } from './srs';
+import type { WordProgress,StudyLog } from '../types';
+const stamp='2026-11-01T08:00:00.000Z';const date='2026-11-01';
+const queue=()=>makeStudyQueue(date,englishWords,[],englishSentences,englishPassages,englishGrammar,stamp);
+describe('英语 SRS 和当天内容',()=>{
+  it('五次跨日认识，依次间隔1/3/7/15/30天，到5封顶',()=>{let previous:WordProgress|undefined;let today=date;
+    for(const [index,interval] of [1,3,7,15,30,30].entries()){previous=rateWord('a','know',previous,today,stamp);expect(previous.stage).toBe(Math.min(5,index+1));expect(previous.nextReview).toBe(addDays(today,interval));today=previous.nextReview;}});
+  it('全新词模糊至少1阶，明天复习并入本',()=>{expect(rateWord('a','fuzzy',undefined,date,stamp)).toMatchObject({stage:1,nextReview:'2026-11-02',lastAdvancedDate:date,inNotebook:true,wrongCount:0});});
+  it('高阶模糊保留原阶段，但改为明天复习',()=>{const old={...rateWord('a','know',undefined,'2026-10-31',stamp),stage:4 as const};expect(rateWord('a','fuzzy',old,date,stamp)).toMatchObject({stage:4,nextReview:'2026-11-02'});});
+  it('不认识归零+错一次，跨月跨闰日仍为次日',()=>{const old={...rateWord('a','know',undefined,'2028-02-28',stamp),stage:5 as const};expect(rateWord('a','unknown',old,'2028-02-29',stamp)).toMatchObject({stage:0,nextReview:'2028-03-01',wrongCount:1});});
+  it('当天再答认识只移出生词本，不推进排期、不改首次答案',()=>{const first=rateWord('a','unknown',undefined,date,stamp);expect(rateWord('a','know',first,date,stamp)).toEqual({...first,inNotebook:false});});
+  it('当天认识再答模糊不会倒退排期，只入本',()=>{const first=rateWord('a','know',undefined,date,stamp);expect(rateWord('a','fuzzy',first,date,stamp)).toEqual({...first,inNotebook:true});});
+  it('设备时间回退时拒绝覆盖未来进度',()=>{expect(()=>rateWord('a','know',rateWord('a','know',undefined,'2026-11-02',stamp),date,stamp)).toThrow('检查设备时间');});
+  it('新词按库顺序跳过学过的词，即使没认识过',()=>{const progress=rateWord(englishWords[0]!.id,'unknown',undefined,date,stamp);const day=makeStudyQueue(date,englishWords,[progress],englishSentences,englishPassages,englishGrammar,stamp);expect(day.newWordIds).toEqual(englishWords.slice(1,6).map((word)=>word.id));expect(day.reviewWordIds).toEqual([]);});
+  it('到期最多20按日期最早优先，不含未到期和孤立进度',()=>{const progress=englishWords.slice(0,25).map((word,index)=>({...rateWord(word.id,'unknown',undefined,'2026-10-01',stamp),nextReview:addDays('2026-10-01',index)}));progress.push({...progress[0]!,wordId:'missing'});progress.push({...progress[0]!,wordId:englishWords[28]!.id,nextReview:'2026-11-02'});const day=makeStudyQueue(date,englishWords,progress,englishSentences,englishPassages,englishGrammar,stamp);expect(day.reviewWordIds).toEqual(progress.slice(0,20).map((entry)=>entry.wordId));});
+  it('同日题目固定、五句五题不重复、次日轮换',()=>{expect(queue()).toEqual(queue());expect(queue().sentenceIds).toHaveLength(5);expect(new Set(queue().sentenceIds).size).toBe(5);expect(queue().grammarIds).toHaveLength(5);expect(makeStudyQueue('2026-11-02',englishWords,[],englishSentences,englishPassages,englishGrammar,stamp).grammarIds).not.toEqual(queue().grammarIds);});
+  it('空内容和全部学过时不捏造新词或题目',()=>{const day=makeStudyQueue(date,[],[],[],[],[],stamp);expect(day.newWordIds).toEqual([]);expect(day.passageId).toBeUndefined();expect(studyLog(day,[],undefined,stamp).grammarDone).toBe(false);});
+  it('生词本兼容旧数据，明确移出优先于旧unknown答案',()=>{const word=englishWords[0]!;const old=rateWord(word.id,'unknown',undefined,date,stamp);delete old.inNotebook;expect(notebookWords([word],[old])).toEqual([word]);expect(notebookWords([word],[{...old,inNotebook:false}])).toEqual([]);});
+  it('主队列与生词本同一词当天只统计一次，retry不加数',()=>{const day=queue();const id=day.newWordIds[0]!;day.completedWordIds=[id];day.notebookCompletedWordIds=[id,'extra'];day.retryWordIds=[id];day.retryCompletedWordIds=[id];expect(studyLog(day,[],undefined,stamp)).toMatchObject({newWords:1,reviews:1});});
+  it('跟读按当天去重，保留分钟，语法全回答才完成',()=>{const day=queue();const log={date,minutes:2} as StudyLog;const shadow={id:'1',date,sentenceId:'s',done:true,updatedAt:stamp};day.grammarAnswers=day.grammarIds.map((questionId)=>({questionId,selected:'A'}));expect(studyLog(day,[shadow,{...shadow,id:'2'},{...shadow,date:'2026-10-31'}],log,stamp)).toMatchObject({minutes:2,sentences:1,grammarDone:true});});
+  it('昨日连续值保留，空队列和仅停留分钟不增加连续',()=>{const logs=['2026-10-30','2026-10-31'].map((date)=>({...studyLog(queue(),[],undefined,stamp),date,newWords:1}));logs.push({...studyLog(queue(),[],undefined,stamp),minutes:100});expect(englishStats([],[],[queue()],logs,date).streak).toBe(2);});
+  it('语法即使只答一道也算真实学习，未来数据不计入今天',()=>{const day=queue();day.grammarAnswers=[{questionId:day.grammarIds[0]!,selected:'A'}];const future={...day,date:'2026-11-02'};expect(englishStats([],[],[day,future],[],date)).toMatchObject({exercises:1,streak:1});});
+  it('查词忽略标点大小写，只查原词，找不到返回undefined',()=>{expect(lookupWord('Schedule,',englishWords)?.word).toBe('schedule');expect(lookupWord('schedules',englishWords)).toBeUndefined();expect(lookupWord('uncollected',englishWords)).toBeUndefined();});
+});

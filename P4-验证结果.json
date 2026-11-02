@@ -1,0 +1,492 @@
+{
+  "phase": "P4",
+  "verifiedDate": "2026-11-01",
+  "commands": {
+    "dev": {
+      "command": "npm run dev -- --port 5174",
+      "status": "实际启动并完成独立Edge验收"
+    },
+    "test": {
+      "command": "npm test",
+      "files": 21,
+      "passed": 247,
+      "failed": 0,
+      "environment": "node"
+    },
+    "build": {
+      "command": "npm run build",
+      "status": "strict TypeScript及Vite生产构建通过",
+      "assets": [
+        {
+          "file": "index-Bi2GJ61V.js",
+          "bytes": 365027,
+          "gzipBytes": 119578
+        },
+        {
+          "file": "index-ClgEHnMr.css",
+          "bytes": 42820,
+          "gzipBytes": 7937
+        }
+      ]
+    }
+  },
+  "developmentBrowser": {
+    "origin": "http://127.0.0.1:5174",
+    "checks": [
+      {
+        "check": "真实2400×1800噪声PNG压缩≤1280/300KB；缩略图刷新持久化/大图可看；三张限制；编辑移除同步清理",
+        "image": {
+          "id": "bdb833a7-4f29-433d-86cf-0df869b87fae",
+          "key": "receipt/bdb833a7-4f29-433d-86cf-0df869b87fae",
+          "thumbKey": "receipt/bdb833a7-4f29-433d-86cf-0df869b87fae/thumb",
+          "width": 1024,
+          "height": 768,
+          "size": 277616,
+          "demo": false,
+          "updatedAt": "2026-10-24T04:00:00.000Z"
+        }
+      },
+      "凌晨02:30默认自然11月；超过7天按createdAt标黄；示例清理不动本人含图记录；标签持久化；跨月到账/审批合并/个人与垫付隔离",
+      "三笔清单纯文本/连续序号/12.64元精确合计，真实剪贴板一致且状态不变；CSV有BOM且只导出整月当前标签；组合筛选正确",
+      "含图片JSON真实下载→删除含图记录及IDB副本→确认恢复→刷新图仍在；base64不进localStorage；损坏备份不写数据",
+      "100笔记录按20笔加载，无白屏；真实触摸左滑进入删除确认，取消不删",
+      "清空全部同时清理凭证IDB；桌面/手机/深色和毛玻璃页面可用"
+    ],
+    "responsive": [
+      {
+        "width": 320,
+        "page": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "expense-editor",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "expense-editor",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "expense-editor",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "expense-editor",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "expense-editor",
+        "overflow": false
+      }
+    ],
+    "browserErrors": []
+  },
+  "productionBrowser": {
+    "origin": "http://127.0.0.1:4174/workbench",
+    "checks": [
+      {
+        "check": "真实2400×1800噪声PNG压缩≤1280/300KB；缩略图刷新持久化/大图可看；三张限制；编辑移除同步清理",
+        "image": {
+          "id": "22d0b87c-ab11-40a8-ac50-7c8c7bb74e07",
+          "key": "receipt/22d0b87c-ab11-40a8-ac50-7c8c7bb74e07",
+          "thumbKey": "receipt/22d0b87c-ab11-40a8-ac50-7c8c7bb74e07/thumb",
+          "width": 1024,
+          "height": 768,
+          "size": 277616,
+          "demo": false,
+          "updatedAt": "2026-10-24T04:00:00.000Z"
+        }
+      },
+      "日切0/6均不改变消费日期；凌晨02:30默认自然11月；超过7天按createdAt标黄；示例清理不动本人含图记录；标签持久化；跨月到账/审批合并/个人与垫付隔离",
+      "三笔清单纯文本/连续序号/12.64元精确合计，真实剪贴板一致且状态不变；CSV有BOM且只导出整月当前标签；组合筛选正确",
+      "含图片JSON真实下载→删除含图记录及IDB副本→确认恢复→刷新图仍在；base64不进localStorage；损坏备份不写数据",
+      "100笔记录按20笔加载，无白屏；真实触摸左滑进入删除确认，取消不删",
+      "清空全部同时清理凭证IDB；桌面/手机/深色和毛玻璃页面可用"
+    ],
+    "responsive": [
+      {
+        "width": 320,
+        "page": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "expense-editor",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "page": "expense-editor",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "expense-editor",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "expense-editor",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "expense-editor",
+        "overflow": false
+      }
+    ],
+    "browserErrors": []
+  },
+  "regression": {
+    "trainingPlanManagement": {
+      "origin": "http://127.0.0.1:4174/workbench",
+      "checks": [
+        "旧设置显示内置目录；新增计划、两个训练日与动作；组次/0秒休息保存；动作和训练日排序；刷新保留",
+        "一键带入自定义4组与5~8次，首次默认8次，0秒不计时；只存已勾完成组；编辑/删除训练日及动作不回改已创建场次",
+        "未保存修改可返回或放弃；删除确认可取消；删除当前计划保留训练/组/快照且刷新不复活；真实JSON导出恢复自定义目录和选中项",
+        "320/390/1440编辑器无横向溢出；内置也可删除；全删空刷新保留，历史仍在；空目录可再次新增"
+      ],
+      "responsive": [
+        {
+          "width": 320,
+          "editorOverflow": false
+        },
+        {
+          "width": 390,
+          "editorOverflow": false
+        },
+        {
+          "width": 1440,
+          "editorOverflow": false
+        }
+      ],
+      "browserErrors": []
+    },
+    "fitnessWallpaperDailyReport": {
+      "checks": [
+        "最终dist在/workbench/子目录加载脚本和样式；训练录入后62.5推荐正确，刷新保留",
+        "根目录和子目录均可使用；主题与IDB壁纸刷新保留；生产包真实剪贴板复制通过"
+      ],
+      "browserErrors": []
+    }
+  },
+  "visualReview": {
+    "status": "已查看桌面、手机、深色和编辑器截图；保留透明毛玻璃与固定底部保存",
+    "files": [
+      "../p4-expense-desktop.png",
+      "../p4-expense-mobile.png",
+      "../p4-editor-mobile.png",
+      "../p4-expense-dark-mobile.png"
+    ]
+  },
+  "dataBoundary": {
+    "currency": "整数分；自然日期；已提交+审批中合并；月到账按paidAt；超期按createdAt严格超过168h",
+    "photos": "最多3张；压缩图≤1280/300KB；缩略图≤200；二进制仅IndexedDB",
+    "backup": "含凭证压缩图与缩略图；旧structured兼容；新键暂存后写结构化快照和替换；失败保留旧数据旧图；重复恢复清理无主副本",
+    "store": "只写expenses/receipts，其他模块不互相导入",
+    "noImages": "普通不附图记账不依赖图片库可写"
+  },
+  "limits": [
+    "手机尺寸模拟，未做真实手机耗电与帧率验收",
+    "未连接用户服务器；根路径与/workbench/静态部署已验证",
+    "P5英语/P6正式PWA未实现",
+    "壁纸原文件仍单独导出，不在凭证JSON中",
+    "50MB以上停止并提示，尚无自动分包/多文件合并",
+    "仅待提交可生成清单；复制不改状态；CSV按标签整月导出"
+  ]
+}

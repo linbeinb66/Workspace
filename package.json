@@ -1,0 +1,37 @@
+{
+  "name": "personal-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^22.12.0 || >=24.0.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && node scripts/build.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "typecheck": "tsc -b --pretty false",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "dayjs": "1.11.23",
+    "idb-keyval": "6.3.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zustand": "5.0.16"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "@vitejs/plugin-react": "5.2.0",
+    "autoprefixer": "10.6.2",
+    "postcss": "8.5.32",
+    "tailwindcss": "3.4.19",
+    "typescript": "5.9.3",
+    "vite": "7.3.7",
+    "vite-plugin-singlefile": "2.3.4",
+    "vitest": "4.1.12"
+  }
+}

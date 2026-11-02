@@ -1,0 +1,409 @@
+{
+  "phase": "P3 + 本地主题壁纸",
+  "verifiedAt": "2026-10-31T09:07:10.416Z",
+  "commands": {
+    "dev": {
+      "command": "npm run dev",
+      "status": "已实际启动5173，HTTP页面与源码正常；验收后关闭本轮启动的临时服务"
+    },
+    "test": {
+      "command": "npm test",
+      "files": 15,
+      "passed": 185,
+      "failed": 0,
+      "environment": "node"
+    },
+    "build": {
+      "command": "npm run build",
+      "status": "strict TypeScript 与生产构建通过",
+      "assets": [
+        {
+          "file": "dist/assets/index-D-ylhlIC.css",
+          "bytes": 38200,
+          "gzipBytes": 7310
+        },
+        {
+          "file": "dist/assets/index-DaXVjKVx.js",
+          "bytes": 306904,
+          "gzipBytes": 100534
+        }
+      ]
+    }
+  },
+  "algorithm": {
+    "prdCases": 10,
+    "totalRecommendationCases": 26,
+    "sequence": "先写推荐测试与纯函数，最初25条通过后实现UI；后续补充自重高RPE边界，共26条"
+  },
+  "library": {
+    "count": 36,
+    "source": "本项目自行整理的名称和可编辑默认配置，无外部数据集"
+  },
+  "browser": {
+    "engine": "Windows Chrome headless；手机尺寸模拟，非真实手机",
+    "phase": "P3 + themes",
+    "checks": [
+      "36动作升级；3组60×12@8后建议62.5×8~12；采用建议填表；2组保存不污染历史；按上次填60",
+      "历史三组编辑后建议和容量重算；跨场连续失败降载55且RPE不挡降载；100kg热身不计推荐/容量",
+      "保存后自动休息；跨模块保留；+30秒；按实际截止时间到时结束与提醒",
+      "体重与目标保存；30天图和7日均值更新；单组和整场删除确认/取消；整场删除不留组；训练结束保留数据",
+      "自定义动作、搜索和部位筛选；单位切换不改历史kg；配置与数据持久化",
+      "四套主题入口、雾紫与渐变生效；本地图片导入IDB而非localStorage；遮罩/模糊及刷新保留；单独下载壁纸",
+      "真实WebM导入/静音循环；替换清旧Blob；手动暂停/恢复；系统减少动态暂停；页面后台暂停和前台恢复",
+      "不支持场景包/损坏媒体不覆盖旧壁纸；移除确认取消及Blob清理；业务页面持续正常",
+      "JSON备份含全部训练/体重/自定义动作/外观元数据；清空同时清理壁纸；恢复后建议重算；壁纸单独重导"
+    ],
+    "responsive": [
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/more/backup",
+        "overflow": false
+      }
+    ],
+    "browserErrors": [],
+    "expectedMediaErrors": []
+  },
+  "interactions": {
+    "checks": [
+      "实际鼠标按住900ms按动作2.5kg步长连续加重，松开后停止",
+      "320px两个新页面主要控件触控尺寸至少44px；未保存草稿不落盘"
+    ],
+    "browserErrors": []
+  },
+  "regression": {
+    "phase": "P2",
+    "http": 200,
+    "checks": [
+      "首次带入3项及明日事项；手改/删除不被重入覆盖；显式补入新增且幂等；刷新草稿保留",
+      "空原因允许保存且高亮；取消不写copiedAt；仍要复制成功；真实系统剪贴板匹配预览；简短模板恰好3行",
+      "选择跨月7天周报；完成去重，数值/时长/峰值汇总；周稿保留手改；显式确认后重算；周报实际复制",
+      "设置中模板实时预览；修改内置保存个人副本且原版不变；默认模板生效；未知变量/三行校验；恢复默认及放弃修改确认",
+      "两种复制API均失败不写时间；execCommand实际降级成功；存储配额失败保留旧稿且明确提示；已复制但状态保存失败准确提示",
+      "实际导出JSON→清空→导入，日报/周报/个人模板/来源ID/复制时间/默认选择完整恢复且页面更新"
+    ],
+    "responsive": [
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/settings/templates",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/settings/templates",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/settings/templates",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/more/settings/templates",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/more/settings",
+        "overflow": false
+      }
+    ],
+    "browserErrors": []
+  },
+  "production": {
+    "checks": [
+      "最终dist在/workbench/子目录加载脚本和样式；训练录入后62.5推荐正确，刷新保留",
+      "根目录和子目录均可使用；主题与IDB壁纸刷新保留；生产包真实剪贴板复制通过"
+    ],
+    "browserErrors": [],
+    "server": "本机临时静态服务器，根目录及/workbench/子目录；未部署用户服务器"
+  },
+  "visualReview": {
+    "files": [
+      "../p3-themes-desktop.png",
+      "../p3-fitness-desktop.png",
+      "../p3-fitness-mobile.png",
+      "../p3-themes-dark-mobile.png",
+      "../p3-fitness-dark-mobile.png",
+      "../p3-recommend-mobile.png"
+    ],
+    "status": "已逐张查看主题、健身、深色和手机推荐截图；手机先展示推荐再展示周统计"
+  },
+  "wallpaper": {
+    "storage": "idb-keyval / wb-wallpapers IndexedDB，仅元数据进入settings",
+    "maxFileBytes": 31457280,
+    "verifiedMedia": "实际生成PNG与VP8 WebM；真实导入、刷新、静音循环、暂停、减少动态与后台恢复、无效媒体保留原文件、移除与清空验证",
+    "backup": "当前JSON含外观设置与壁纸引用，不含图片/视频文件；通过单独保存文件带走"
+  },
+  "limitations": [
+    "未连接用户HTTPS服务器",
+    "未做真实手机MP4/WebM编码、耗电及自动播放验收",
+    "PWA安装离线功能留至P6",
+    "完整媒体备份留至P4/P6",
+    "不能直接读取Wallpaper Engine场景包或跟随桌面壁纸"
+  ],
+  "references": [
+    {
+      "title": "Wallpaper Engine official export guidance",
+      "url": "https://help.wallpaperengine.io/en/functionality/export.html"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "phase": "P0",
+  "productRequirements": "PRD v1.1 section 16 and user confirmations",
+  "unitTests": {
+    "environment": "node",
+    "testsPassed": 49,
+    "command": "npm test",
+    "filesPassed": 5
+  },
+  "productionBuild": {
+    "javascriptBytes": 199300,
+    "strictTypecheck": "passed",
+    "javascriptGzipBytes": 66850,
+    "command": "npm run build"
+  },
+  "dev": {
+    "url": "http://127.0.0.1:5173/",
+    "verifiedHttpStatus": 200,
+    "command": "npm run dev"
+  },
+  "browser": {
+    "http": 200,
+    "responsive": [
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/english",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/english",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/english",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/backup",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/english",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/more",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/more/expense",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 1280,
+        "height": 900,
+        "route": "/more/backup",
+        "overflow": false
+      }
+    ],
+    "checks": [
+      "设置持久化、主题切换、刷新保留子路由、日切不回改历史",
+      "浏览器实际下载 JSON，内容与设置正确",
+      "损坏 JSON 只提示，数据逐字保持不变",
+      "清空前二次确认可取消；清理示例保留词库，刷新不重新生成",
+      "导出→清空→导入恢复全部结构化记录和设置，确认前不写入",
+      "通用步进器按 2.5 步进且长按可停止；抽屉 Escape 与焦点恢复正确；复制的两条路径均写入真实剪贴板"
+    ],
+    "browserErrors": []
+  },
+  "deviceVerification": "Chrome viewport emulation only; real iOS and Android checks deferred"
+}

@@ -1,0 +1,204 @@
+{
+  "phase": "P3.2",
+  "verifiedDate": "2026-10-31",
+  "commands": {
+    "dev": "npm run dev -- --port 5174 实际启动并通过浏览器验收",
+    "test": {
+      "command": "npm test",
+      "files": 18,
+      "passed": 209,
+      "failed": 0,
+      "environment": "node"
+    },
+    "build": {
+      "command": "npm run build",
+      "status": "严格TypeScript与生产构建通过",
+      "assets": [
+        {
+          "file": "index-CTWHvvNo.js",
+          "bytes": 334884,
+          "gzipBytes": 109902
+        },
+        {
+          "file": "index-DzNTwUEZ.css",
+          "bytes": 41888,
+          "gzipBytes": 7788
+        }
+      ]
+    }
+  },
+  "developmentEdge": {
+    "origin": "http://127.0.0.1:5174",
+    "checks": [
+      "旧设置显示内置目录；新增计划、两个训练日与动作；组次/0秒休息保存；动作和训练日排序；刷新保留",
+      "一键带入自定义4组与5~8次，首次默认8次，0秒不计时；只存已勾完成组；编辑/删除训练日及动作不回改已创建场次",
+      "未保存修改可返回或放弃；删除确认可取消；删除当前计划保留训练/组/快照且刷新不复活；真实JSON导出恢复自定义目录和选中项",
+      "320/390/1440编辑器无横向溢出；内置也可删除；全删空刷新保留，历史仍在；空目录可再次新增"
+    ],
+    "responsive": [
+      {
+        "width": 320,
+        "editorOverflow": false
+      },
+      {
+        "width": 390,
+        "editorOverflow": false
+      },
+      {
+        "width": 1440,
+        "editorOverflow": false
+      }
+    ],
+    "browserErrors": []
+  },
+  "productionEdge": {
+    "origin": "http://127.0.0.1:4174/workbench",
+    "checks": [
+      "旧设置显示内置目录；新增计划、两个训练日与动作；组次/0秒休息保存；动作和训练日排序；刷新保留",
+      "一键带入自定义4组与5~8次，首次默认8次，0秒不计时；只存已勾完成组；编辑/删除训练日及动作不回改已创建场次",
+      "未保存修改可返回或放弃；删除确认可取消；删除当前计划保留训练/组/快照且刷新不复活；真实JSON导出恢复自定义目录和选中项",
+      "320/390/1440编辑器无横向溢出；内置也可删除；全删空刷新保留，历史仍在；空目录可再次新增"
+    ],
+    "responsive": [
+      {
+        "width": 320,
+        "editorOverflow": false
+      },
+      {
+        "width": 390,
+        "editorOverflow": false
+      },
+      {
+        "width": 1440,
+        "editorOverflow": false
+      }
+    ],
+    "browserErrors": []
+  },
+  "productionRegression": {
+    "origin": "http://127.0.0.1:4174",
+    "checks": [
+      "默认四分化；一键带入动作/3组/8~12次但零完成组；重复开始继续原场；部分保存不推进；确认完成后推进背日与高位下拉",
+      "三/四分化切换持久化、各自循环；围度可单独保存无虚构体重；同日体重/腰胸肩臂合并且刷新保留",
+      "真实JSON导出并确认恢复，场次快照、循环和围度保留"
+    ],
+    "responsive": [
+      {
+        "width": 320,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 768,
+        "page": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/fitness",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/settings/appearance",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/home",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "page": "/more/report",
+        "overflow": false
+      }
+    ],
+    "browserErrors": [],
+    "day": "2026-10-31"
+  },
+  "dataCompatibility": {
+    "oldSettings": "trainingPlans缺省显示原内置目录，不回改历史",
+    "emptyCatalog": "显式空数组表示用户已删除全部，不自动补回",
+    "backup": "目录、组次、0秒计时和选中计划包含在JSON；Node及真实Edge下载/确认恢复通过",
+    "history": "修改删除仅更新settings；场次和实际组保留，已创建场次继续使用原快照"
+  },
+  "visualReview": {
+    "status": "已查看手机编辑器和桌面管理截图，无横向溢出；编辑抽屉滚动且底部固定保存",
+    "files": [
+      "../plan-editor-mobile.png",
+      "../plan-management-desktop.png"
+    ]
+  },
+  "scope": "未新增依赖，未连接用户服务器；P4/P5/P6不在本轮范围"
+}

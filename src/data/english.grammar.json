@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "english-grammar-001",
+    "stem": "She ___ the schedule every morning.",
+    "options": [
+      {
+        "key": "A",
+        "text": "check"
+      },
+      {
+        "key": "B",
+        "text": "checks"
+      },
+      {
+        "key": "C",
+        "text": "checking"
+      },
+      {
+        "key": "D",
+        "text": "to check"
+      }
+    ],
+    "answer": "B",
+    "explain": "一般现在时，主语 she 为第三人称单数，动词用 checks。"
+  },
+  {
+    "id": "english-grammar-002",
+    "stem": "They ___ in the studio now.",
+    "options": [
+      {
+        "key": "A",
+        "text": "rehearse"
+      },
+      {
+        "key": "B",
+        "text": "rehearsed"
+      },
+      {
+        "key": "C",
+        "text": "are rehearsing"
+      },
+      {
+        "key": "D",
+        "text": "rehearses"
+      }
+    ],
+    "answer": "C",
+    "explain": "now 表示此刻正在发生，用 are rehearsing。"
+  },
+  {
+    "id": "english-grammar-003",
+    "stem": "We ___ the equipment yesterday.",
+    "options": [
+      {
+        "key": "A",
+        "text": "test"
+      },
+      {
+        "key": "B",
+        "text": "tested"
+      },
+      {
+        "key": "C",
+        "text": "testing"
+      },
+      {
+        "key": "D",
+        "text": "tests"
+      }
+    ],
+    "answer": "B",
+    "explain": "yesterday 表示过去，test 的过去式是 tested。"
+  },
+  {
+    "id": "english-grammar-004",
+    "stem": "I ___ the file tomorrow morning.",
+    "options": [
+      {
+        "key": "A",
+        "text": "send"
+      },
+      {
+        "key": "B",
+        "text": "sent"
+      },
+      {
+        "key": "C",
+        "text": "have sent"
+      },
+      {
+        "key": "D",
+        "text": "will send"
+      }
+    ],
+    "answer": "D",
+    "explain": "tomorrow morning 表示将来，用 will send。"
+  },
+  {
+    "id": "english-grammar-005",
+    "stem": "He has ___ finished the report.",
+    "options": [
+      {
+        "key": "A",
+        "text": "already"
+      },
+      {
+        "key": "B",
+        "text": "yet"
+      },
+      {
+        "key": "C",
+        "text": "ever"
+      },
+      {
+        "key": "D",
+        "text": "tomorrow"
+      }
+    ],
+    "answer": "A",
+    "explain": "already 可用于现在完成时肯定句中，表示已经。"
+  },
+  {
+    "id": "english-grammar-006",
+    "stem": "Have you checked the sound ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "already"
+      },
+      {
+        "key": "B",
+        "text": "yesterday"
+      },
+      {
+        "key": "C",
+        "text": "yet"
+      },
+      {
+        "key": "D",
+        "text": "last week"
+      }
+    ],
+    "answer": "C",
+    "explain": "yet 常用于现在完成时疑问句句尾，表示已经。"
+  },
+  {
+    "id": "english-grammar-007",
+    "stem": "I ___ here since nine o'clock.",
+    "options": [
+      {
+        "key": "A",
+        "text": "am"
+      },
+      {
+        "key": "B",
+        "text": "was"
+      },
+      {
+        "key": "C",
+        "text": "have been"
+      },
+      {
+        "key": "D",
+        "text": "will be"
+      }
+    ],
+    "answer": "C",
+    "explain": "since 引出起点，持续到现在用 have been。"
+  },
+  {
+    "id": "english-grammar-008",
+    "stem": "When you called, I ___ a video.",
+    "options": [
+      {
+        "key": "A",
+        "text": "edit"
+      },
+      {
+        "key": "B",
+        "text": "was editing"
+      },
+      {
+        "key": "C",
+        "text": "have edited"
+      },
+      {
+        "key": "D",
+        "text": "edits"
+      }
+    ],
+    "answer": "B",
+    "explain": "过去某一时刻正在进行的动作，用过去进行时。"
+  },
+  {
+    "id": "english-grammar-009",
+    "stem": "By the time we arrived, the show ___ already started.",
+    "options": [
+      {
+        "key": "A",
+        "text": "has"
+      },
+      {
+        "key": "B",
+        "text": "had"
+      },
+      {
+        "key": "C",
+        "text": "is"
+      },
+      {
+        "key": "D",
+        "text": "will"
+      }
+    ],
+    "answer": "B",
+    "explain": "开始发生在过去的到达之前，用过去完成时 had started。"
+  },
+  {
+    "id": "english-grammar-010",
+    "stem": "Listen! Someone ___ at the door.",
+    "options": [
+      {
+        "key": "A",
+        "text": "knocks"
+      },
+      {
+        "key": "B",
+        "text": "knocked"
+      },
+      {
+        "key": "C",
+        "text": "is knocking"
+      },
+      {
+        "key": "D",
+        "text": "has knocked"
+      }
+    ],
+    "answer": "C",
+    "explain": "Listen 提示此刻的动作，用现在进行时。"
+  },
+  {
+    "id": "english-grammar-011",
+    "stem": "I need ___ receipt for this payment.",
+    "options": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "the an"
+      },
+      {
+        "key": "D",
+        "text": "many"
+      }
+    ],
+    "answer": "A",
+    "explain": "receipt 是辅音音素开头的单数可数名词，泛指用 a。"
+  },
+  {
+    "id": "english-grammar-012",
+    "stem": "She sent ___ email after the meeting.",
+    "options": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "many"
+      },
+      {
+        "key": "D",
+        "text": "few"
+      }
+    ],
+    "answer": "B",
+    "explain": "email 以元音音素开头，泛指单数用 an。"
+  },
+  {
+    "id": "english-grammar-013",
+    "stem": "___ sun is bright today.",
+    "options": [
+      {
+        "key": "A",
+        "text": "A"
+      },
+      {
+        "key": "B",
+        "text": "An"
+      },
+      {
+        "key": "C",
+        "text": "The"
+      },
+      {
+        "key": "D",
+        "text": "Some"
+      }
+    ],
+    "answer": "C",
+    "explain": "sun 指独一无二的太阳，通常用 the。"
+  },
+  {
+    "id": "english-grammar-014",
+    "stem": "We usually have ___ lunch at noon.",
+    "options": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "the"
+      },
+      {
+        "key": "D",
+        "text": "不填"
+      }
+    ],
+    "answer": "D",
+    "explain": "have lunch 表示吃午饭，通常不用冠词。"
+  },
+  {
+    "id": "english-grammar-015",
+    "stem": "He is ___ honest person.",
+    "options": [
+      {
+        "key": "A",
+        "text": "a"
+      },
+      {
+        "key": "B",
+        "text": "an"
+      },
+      {
+        "key": "C",
+        "text": "the a"
+      },
+      {
+        "key": "D",
+        "text": "some"
+      }
+    ],
+    "answer": "B",
+    "explain": "honest 的 h 不发音，以元音音素开头，用 an。"
+  },
+  {
+    "id": "english-grammar-016",
+    "stem": "There are three ___ on the desk.",
+    "options": [
+      {
+        "key": "A",
+        "text": "box"
+      },
+      {
+        "key": "B",
+        "text": "boxs"
+      },
+      {
+        "key": "C",
+        "text": "boxes"
+      },
+      {
+        "key": "D",
+        "text": "boxing"
+      }
+    ],
+    "answer": "C",
+    "explain": "box 以 x 结尾，复数加 es，成为 boxes。"
+  },
+  {
+    "id": "english-grammar-017",
+    "stem": "How much ___ do we need?",
+    "options": [
+      {
+        "key": "A",
+        "text": "waters"
+      },
+      {
+        "key": "B",
+        "text": "water"
+      },
+      {
+        "key": "C",
+        "text": "bottles"
+      },
+      {
+        "key": "D",
+        "text": "tickets"
+      }
+    ],
+    "answer": "B",
+    "explain": "much 修饰不可数名词，water 为不可数名词。"
+  },
+  {
+    "id": "english-grammar-018",
+    "stem": "I have ___ questions about the plan.",
+    "options": [
+      {
+        "key": "A",
+        "text": "a little"
+      },
+      {
+        "key": "B",
+        "text": "much"
+      },
+      {
+        "key": "C",
+        "text": "a few"
+      },
+      {
+        "key": "D",
+        "text": "any one"
+      }
+    ],
+    "answer": "C",
+    "explain": "questions 是复数可数名词，肯定句中可用 a few。"
+  },
+  {
+    "id": "english-grammar-019",
+    "stem": "There is ___ time left, so please be quick.",
+    "options": [
+      {
+        "key": "A",
+        "text": "few"
+      },
+      {
+        "key": "B",
+        "text": "many"
+      },
+      {
+        "key": "C",
+        "text": "little"
+      },
+      {
+        "key": "D",
+        "text": "a few"
+      }
+    ],
+    "answer": "C",
+    "explain": "time 在此不可数，little 表示剩余时间很少。"
+  },
+  {
+    "id": "english-grammar-020",
+    "stem": "Could you give me some ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "advices"
+      },
+      {
+        "key": "B",
+        "text": "advice"
+      },
+      {
+        "key": "C",
+        "text": "an advice"
+      },
+      {
+        "key": "D",
+        "text": "advise"
+      }
+    ],
+    "answer": "B",
+    "explain": "advice 是不可数名词，此处不加 s；advise 是动词。"
+  },
+  {
+    "id": "english-grammar-021",
+    "stem": "The meeting starts ___ nine.",
+    "options": [
+      {
+        "key": "A",
+        "text": "in"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "for"
+      }
+    ],
+    "answer": "C",
+    "explain": "具体钟点前用 at，这里是 at nine。"
+  },
+  {
+    "id": "english-grammar-022",
+    "stem": "We will meet ___ Monday.",
+    "options": [
+      {
+        "key": "A",
+        "text": "at"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "by for"
+      }
+    ],
+    "answer": "B",
+    "explain": "星期几前用 on，这里是 on Monday。"
+  },
+  {
+    "id": "english-grammar-023",
+    "stem": "The event is ___ November.",
+    "options": [
+      {
+        "key": "A",
+        "text": "at"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "in"
+      },
+      {
+        "key": "D",
+        "text": "to"
+      }
+    ],
+    "answer": "C",
+    "explain": "月份前用 in，这里是 in November。"
+  },
+  {
+    "id": "english-grammar-024",
+    "stem": "This gift is ___ our team.",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "of"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "answer": "A",
+    "explain": "for 表示给予的对象或用途，这里是送给团队。"
+  },
+  {
+    "id": "english-grammar-025",
+    "stem": "Please put the camera ___ the table.",
+    "options": [
+      {
+        "key": "A",
+        "text": "of"
+      },
+      {
+        "key": "B",
+        "text": "with"
+      },
+      {
+        "key": "C",
+        "text": "on"
+      },
+      {
+        "key": "D",
+        "text": "from"
+      }
+    ],
+    "answer": "C",
+    "explain": "on the table 表示在桌面上。"
+  },
+  {
+    "id": "english-grammar-026",
+    "stem": "We travelled ___ train.",
+    "options": [
+      {
+        "key": "A",
+        "text": "by"
+      },
+      {
+        "key": "B",
+        "text": "on a by"
+      },
+      {
+        "key": "C",
+        "text": "with a"
+      },
+      {
+        "key": "D",
+        "text": "at"
+      }
+    ],
+    "answer": "A",
+    "explain": "by train 表示乘火车，交通工具前不加冠词。"
+  },
+  {
+    "id": "english-grammar-027",
+    "stem": "I am interested ___ photography.",
+    "options": [
+      {
+        "key": "A",
+        "text": "on"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "to"
+      }
+    ],
+    "answer": "B",
+    "explain": "固定搭配 be interested in，表示对某事感兴趣。"
+  },
+  {
+    "id": "english-grammar-028",
+    "stem": "Please listen ___ the instructions.",
+    "options": [
+      {
+        "key": "A",
+        "text": "for"
+      },
+      {
+        "key": "B",
+        "text": "at"
+      },
+      {
+        "key": "C",
+        "text": "to"
+      },
+      {
+        "key": "D",
+        "text": "with"
+      }
+    ],
+    "answer": "C",
+    "explain": "listen 后接对象时用 to。"
+  },
+  {
+    "id": "english-grammar-029",
+    "stem": "She is good ___ explaining difficult ideas.",
+    "options": [
+      {
+        "key": "A",
+        "text": "in"
+      },
+      {
+        "key": "B",
+        "text": "on"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "for"
+      }
+    ],
+    "answer": "C",
+    "explain": "be good at 表示擅长某事，后接名词或动名词。"
+  },
+  {
+    "id": "english-grammar-030",
+    "stem": "We arrived ___ the studio early.",
+    "options": [
+      {
+        "key": "A",
+        "text": "to"
+      },
+      {
+        "key": "B",
+        "text": "in"
+      },
+      {
+        "key": "C",
+        "text": "at"
+      },
+      {
+        "key": "D",
+        "text": "on"
+      }
+    ],
+    "answer": "C",
+    "explain": "arrive at 用于演播室等具体小地点。"
+  },
+  {
+    "id": "english-grammar-031",
+    "stem": "This is ___ camera, not mine.",
+    "options": [
+      {
+        "key": "A",
+        "text": "her"
+      },
+      {
+        "key": "B",
+        "text": "hers"
+      },
+      {
+        "key": "C",
+        "text": "she"
+      },
+      {
+        "key": "D",
+        "text": "herself"
+      }
+    ],
+    "answer": "A",
+    "explain": "名词 camera 前用形容词性物主代词 her。"
+  },
+  {
+    "id": "english-grammar-032",
+    "stem": "The blue notebook is ___.",
+    "options": [
+      {
+        "key": "A",
+        "text": "my"
+      },
+      {
+        "key": "B",
+        "text": "me"
+      },
+      {
+        "key": "C",
+        "text": "mine"
+      },
+      {
+        "key": "D",
+        "text": "I"
+      }
+    ],
+    "answer": "C",
+    "explain": "mine 独立作表语，表示我的笔记本。"
+  },
+  {
+    "id": "english-grammar-033",
+    "stem": "Could you help ___ with this cable?",
+    "options": [
+      {
+        "key": "A",
+        "text": "I"
+      },
+      {
+        "key": "B",
+        "text": "my"
+      },
+      {
+        "key": "C",
+        "text": "mine"
+      },
+      {
+        "key": "D",
+        "text": "me"
+      }
+    ],
+    "answer": "D",
+    "explain": "help 后用宾格 me 作宾语。"
+  },
+  {
+    "id": "english-grammar-034",
+    "stem": "We prepared the room ___.",
+    "options": [
+      {
+        "key": "A",
+        "text": "us"
+      },
+      {
+        "key": "B",
+        "text": "our"
+      },
+      {
+        "key": "C",
+        "text": "ourselves"
+      },
+      {
+        "key": "D",
+        "text": "ours"
+      }
+    ],
+    "answer": "C",
+    "explain": "ourselves 表示我们自己，强调亲自准备。"
+  },
+  {
+    "id": "english-grammar-035",
+    "stem": "Is ___ ready for the rehearsal?",
+    "options": [
+      {
+        "key": "A",
+        "text": "everyone"
+      },
+      {
+        "key": "B",
+        "text": "every people"
+      },
+      {
+        "key": "C",
+        "text": "all person"
+      },
+      {
+        "key": "D",
+        "text": "any things"
+      }
+    ],
+    "answer": "A",
+    "explain": "everyone 是指人的不定代词，谓语用单数 is。"
+  },
+  {
+    "id": "english-grammar-036",
+    "stem": "I cannot find my ticket ___.",
+    "options": [
+      {
+        "key": "A",
+        "text": "somewhere"
+      },
+      {
+        "key": "B",
+        "text": "anywhere"
+      },
+      {
+        "key": "C",
+        "text": "nowhere never"
+      },
+      {
+        "key": "D",
+        "text": "every"
+      }
+    ],
+    "answer": "B",
+    "explain": "否定句中 anywhere 表示任何地方。"
+  },
+  {
+    "id": "english-grammar-037",
+    "stem": "There is ___ in the room; everyone has left.",
+    "options": [
+      {
+        "key": "A",
+        "text": "someone"
+      },
+      {
+        "key": "B",
+        "text": "anyone"
+      },
+      {
+        "key": "C",
+        "text": "no one"
+      },
+      {
+        "key": "D",
+        "text": "anybody else"
+      }
+    ],
+    "answer": "C",
+    "explain": "everyone has left 表明房间里没有人，用 no one。"
+  },
+  {
+    "id": "english-grammar-038",
+    "stem": "Both clips are useful. You can choose ___ of them.",
+    "options": [
+      {
+        "key": "A",
+        "text": "either"
+      },
+      {
+        "key": "B",
+        "text": "neither of"
+      },
+      {
+        "key": "C",
+        "text": "every"
+      },
+      {
+        "key": "D",
+        "text": "each other"
+      }
+    ],
+    "answer": "A",
+    "explain": "either of them 表示两者中的任意一个。"
+  },
+  {
+    "id": "english-grammar-039",
+    "stem": "The team members helped ___ during rehearsal.",
+    "options": [
+      {
+        "key": "A",
+        "text": "each other"
+      },
+      {
+        "key": "B",
+        "text": "themselves each"
+      },
+      {
+        "key": "C",
+        "text": "another one each"
+      },
+      {
+        "key": "D",
+        "text": "every other one"
+      }
+    ],
+    "answer": "A",
+    "explain": "each other 表示相互，符合队员互相帮助的意思。"
+  },
+  {
+    "id": "english-grammar-040",
+    "stem": "There are two versions. ___ one do you prefer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Who"
+      },
+      {
+        "key": "B",
+        "text": "Where"
+      },
+      {
+        "key": "C",
+        "text": "Which"
+      },
+      {
+        "key": "D",
+        "text": "When"
+      }
+    ],
+    "answer": "C",
+    "explain": "在限定的两个版本中选择，用 Which 提问。"
+  },
+  {
+    "id": "english-grammar-041",
+    "stem": "This file is ___ than that one.",
+    "options": [
+      {
+        "key": "A",
+        "text": "large"
+      },
+      {
+        "key": "B",
+        "text": "larger"
+      },
+      {
+        "key": "C",
+        "text": "largest"
+      },
+      {
+        "key": "D",
+        "text": "more larger"
+      }
+    ],
+    "answer": "B",
+    "explain": "than 提示比较级，large 的比较级为 larger。"
+  },
+  {
+    "id": "english-grammar-042",
+    "stem": "This is the ___ clip in the folder.",
+    "options": [
+      {
+        "key": "A",
+        "text": "short"
+      },
+      {
+        "key": "B",
+        "text": "shorter"
+      },
+      {
+        "key": "C",
+        "text": "shortest"
+      },
+      {
+        "key": "D",
+        "text": "most short"
+      }
+    ],
+    "answer": "C",
+    "explain": "the 和范围 in the folder 提示最高级 shortest。"
+  },
+  {
+    "id": "english-grammar-043",
+    "stem": "Please speak more ___.",
+    "options": [
+      {
+        "key": "A",
+        "text": "clear"
+      },
+      {
+        "key": "B",
+        "text": "clearly"
+      },
+      {
+        "key": "C",
+        "text": "clearness"
+      },
+      {
+        "key": "D",
+        "text": "clearing"
+      }
+    ],
+    "answer": "B",
+    "explain": "修饰动词 speak 用副词 clearly，more clearly 表示更清楚地。"
+  },
+  {
+    "id": "english-grammar-044",
+    "stem": "The instructions are very ___.",
+    "options": [
+      {
+        "key": "A",
+        "text": "clearly"
+      },
+      {
+        "key": "B",
+        "text": "clear"
+      },
+      {
+        "key": "C",
+        "text": "clearer than"
+      },
+      {
+        "key": "D",
+        "text": "clarity"
+      }
+    ],
+    "answer": "B",
+    "explain": "系动词 are 后用形容词 clear 作表语。"
+  },
+  {
+    "id": "english-grammar-045",
+    "stem": "The second take was as ___ as the first.",
+    "options": [
+      {
+        "key": "A",
+        "text": "good"
+      },
+      {
+        "key": "B",
+        "text": "better"
+      },
+      {
+        "key": "C",
+        "text": "best"
+      },
+      {
+        "key": "D",
+        "text": "wellest"
+      }
+    ],
+    "answer": "A",
+    "explain": "as ... as 中用形容词原级 good。"
+  },
+  {
+    "id": "english-grammar-046",
+    "stem": "We have ___ tasks today than yesterday.",
+    "options": [
+      {
+        "key": "A",
+        "text": "little"
+      },
+      {
+        "key": "B",
+        "text": "less"
+      },
+      {
+        "key": "C",
+        "text": "fewer"
+      },
+      {
+        "key": "D",
+        "text": "fewest"
+      }
+    ],
+    "answer": "C",
+    "explain": "tasks 是可数名词复数，表示更少用 fewer。"
+  },
+  {
+    "id": "english-grammar-047",
+    "stem": "This route takes ___ time.",
+    "options": [
+      {
+        "key": "A",
+        "text": "fewer"
+      },
+      {
+        "key": "B",
+        "text": "less"
+      },
+      {
+        "key": "C",
+        "text": "many"
+      },
+      {
+        "key": "D",
+        "text": "few"
+      }
+    ],
+    "answer": "B",
+    "explain": "time 不可数，比较多少时用 less。"
+  },
+  {
+    "id": "english-grammar-048",
+    "stem": "He works ___ and rarely misses a deadline.",
+    "options": [
+      {
+        "key": "A",
+        "text": "hard"
+      },
+      {
+        "key": "B",
+        "text": "hardly"
+      },
+      {
+        "key": "C",
+        "text": "hardness"
+      },
+      {
+        "key": "D",
+        "text": "harder than"
+      }
+    ],
+    "answer": "A",
+    "explain": "hard 作副词表示努力；hardly 表示几乎不，含义不同。"
+  },
+  {
+    "id": "english-grammar-049",
+    "stem": "I am ___ tired to continue tonight.",
+    "options": [
+      {
+        "key": "A",
+        "text": "so"
+      },
+      {
+        "key": "B",
+        "text": "such"
+      },
+      {
+        "key": "C",
+        "text": "too"
+      },
+      {
+        "key": "D",
+        "text": "enough"
+      }
+    ],
+    "answer": "C",
+    "explain": "too ... to ... 表示太……而不能……。"
+  },
+  {
+    "id": "english-grammar-050",
+    "stem": "The room is quiet ___ for recording.",
+    "options": [
+      {
+        "key": "A",
+        "text": "too"
+      },
+      {
+        "key": "B",
+        "text": "enough"
+      },
+      {
+        "key": "C",
+        "text": "so"
+      },
+      {
+        "key": "D",
+        "text": "very enough"
+      }
+    ],
+    "answer": "B",
+    "explain": "enough 修饰形容词时放在后面，quiet enough。"
+  },
+  {
+    "id": "english-grammar-051",
+    "stem": "You ___ save a copy before clearing the files.",
+    "options": [
+      {
+        "key": "A",
+        "text": "should"
+      },
+      {
+        "key": "B",
+        "text": "to should"
+      },
+      {
+        "key": "C",
+        "text": "should to"
+      },
+      {
+        "key": "D",
+        "text": "should saving"
+      }
+    ],
+    "answer": "A",
+    "explain": "情态动词 should 后接动词原形，表示建议。"
+  },
+  {
+    "id": "english-grammar-052",
+    "stem": "___ you help me carry this light?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Could"
+      },
+      {
+        "key": "B",
+        "text": "Must to"
+      },
+      {
+        "key": "C",
+        "text": "Need to"
+      },
+      {
+        "key": "D",
+        "text": "Are"
+      }
+    ],
+    "answer": "A",
+    "explain": "Could you ... 是礼貌请求的常见表达。"
+  },
+  {
+    "id": "english-grammar-053",
+    "stem": "We ___ wear our passes inside the venue; it is required.",
+    "options": [
+      {
+        "key": "A",
+        "text": "may"
+      },
+      {
+        "key": "B",
+        "text": "must"
+      },
+      {
+        "key": "C",
+        "text": "might"
+      },
+      {
+        "key": "D",
+        "text": "would"
+      }
+    ],
+    "answer": "B",
+    "explain": "it is required 表示规定要求，must 表示必须。"
+  },
+  {
+    "id": "english-grammar-054",
+    "stem": "You ___ smoke here; it is forbidden.",
+    "options": [
+      {
+        "key": "A",
+        "text": "do not have to"
+      },
+      {
+        "key": "B",
+        "text": "must not"
+      },
+      {
+        "key": "C",
+        "text": "might not"
+      },
+      {
+        "key": "D",
+        "text": "need not"
+      }
+    ],
+    "answer": "B",
+    "explain": "must not 表示禁止；do not have to 只表示不必。"
+  },
+  {
+    "id": "english-grammar-055",
+    "stem": "You ___ bring a cable; we have enough.",
+    "options": [
+      {
+        "key": "A",
+        "text": "must not"
+      },
+      {
+        "key": "B",
+        "text": "cannot"
+      },
+      {
+        "key": "C",
+        "text": "do not have to"
+      },
+      {
+        "key": "D",
+        "text": "must always"
+      }
+    ],
+    "answer": "C",
+    "explain": "已有足够线材，所以不必带，用 do not have to。"
+  },
+  {
+    "id": "english-grammar-056",
+    "stem": "She ___ be in the studio, but I am not sure.",
+    "options": [
+      {
+        "key": "A",
+        "text": "must"
+      },
+      {
+        "key": "B",
+        "text": "might"
+      },
+      {
+        "key": "C",
+        "text": "has to"
+      },
+      {
+        "key": "D",
+        "text": "needs"
+      }
+    ],
+    "answer": "B",
+    "explain": "but I am not sure 表明只是可能，用 might。"
+  },
+  {
+    "id": "english-grammar-057",
+    "stem": "I ___ swim when I was a child.",
+    "options": [
+      {
+        "key": "A",
+        "text": "can"
+      },
+      {
+        "key": "B",
+        "text": "could"
+      },
+      {
+        "key": "C",
+        "text": "may"
+      },
+      {
+        "key": "D",
+        "text": "am able"
+      }
+    ],
+    "answer": "B",
+    "explain": "过去的一般能力用 could。"
+  },
+  {
+    "id": "english-grammar-058",
+    "stem": "May I ___ the window?",
+    "options": [
+      {
+        "key": "A",
+        "text": "opening"
+      },
+      {
+        "key": "B",
+        "text": "opened"
+      },
+      {
+        "key": "C",
+        "text": "open"
+      },
+      {
+        "key": "D",
+        "text": "to open"
+      }
+    ],
+    "answer": "C",
+    "explain": "情态动词 may 后接动词原形 open。"
+  },
+  {
+    "id": "english-grammar-059",
+    "stem": "We had better ___ the sound again.",
+    "options": [
+      {
+        "key": "A",
+        "text": "check"
+      },
+      {
+        "key": "B",
+        "text": "to check"
+      },
+      {
+        "key": "C",
+        "text": "checking"
+      },
+      {
+        "key": "D",
+        "text": "checked"
+      }
+    ],
+    "answer": "A",
+    "explain": "had better 后接动词原形，表示最好做某事。"
+  },
+  {
+    "id": "english-grammar-060",
+    "stem": "You should not ___ your password with others.",
+    "options": [
+      {
+        "key": "A",
+        "text": "sharing"
+      },
+      {
+        "key": "B",
+        "text": "shared"
+      },
+      {
+        "key": "C",
+        "text": "to share"
+      },
+      {
+        "key": "D",
+        "text": "share"
+      }
+    ],
+    "answer": "D",
+    "explain": "should not 后接动词原形 share。"
+  },
+  {
+    "id": "english-grammar-061",
+    "stem": "I enjoy ___ short passages.",
+    "options": [
+      {
+        "key": "A",
+        "text": "read"
+      },
+      {
+        "key": "B",
+        "text": "to read"
+      },
+      {
+        "key": "C",
+        "text": "reading"
+      },
+      {
+        "key": "D",
+        "text": "reads"
+      }
+    ],
+    "answer": "C",
+    "explain": "enjoy 后接动名词，enjoy reading。"
+  },
+  {
+    "id": "english-grammar-062",
+    "stem": "We decided ___ the meeting earlier.",
+    "options": [
+      {
+        "key": "A",
+        "text": "start"
+      },
+      {
+        "key": "B",
+        "text": "starting"
+      },
+      {
+        "key": "C",
+        "text": "started"
+      },
+      {
+        "key": "D",
+        "text": "to start"
+      }
+    ],
+    "answer": "D",
+    "explain": "decide to do 表示决定做某事。"
+  },
+  {
+    "id": "english-grammar-063",
+    "stem": "Please remember ___ the file before leaving.",
+    "options": [
+      {
+        "key": "A",
+        "text": "save"
+      },
+      {
+        "key": "B",
+        "text": "to save"
+      },
+      {
+        "key": "C",
+        "text": "saved"
+      },
+      {
+        "key": "D",
+        "text": "to saving"
+      }
+    ],
+    "answer": "B",
+    "explain": "remember to do 表示记得去做尚未做的事。"
+  },
+  {
+    "id": "english-grammar-064",
+    "stem": "He avoided ___ the same mistake.",
+    "options": [
+      {
+        "key": "A",
+        "text": "make"
+      },
+      {
+        "key": "B",
+        "text": "making"
+      },
+      {
+        "key": "C",
+        "text": "to make"
+      },
+      {
+        "key": "D",
+        "text": "made"
+      }
+    ],
+    "answer": "B",
+    "explain": "avoid 后接动名词 making。"
+  },
+  {
+    "id": "english-grammar-065",
+    "stem": "I look forward to ___ with your team.",
+    "options": [
+      {
+        "key": "A",
+        "text": "work"
+      },
+      {
+        "key": "B",
+        "text": "worked"
+      },
+      {
+        "key": "C",
+        "text": "working"
+      },
+      {
+        "key": "D",
+        "text": "to work"
+      }
+    ],
+    "answer": "C",
+    "explain": "look forward to 中 to 是介词，后接 working。"
+  },
+  {
+    "id": "english-grammar-066",
+    "stem": "Let us ___ the plan together.",
+    "options": [
+      {
+        "key": "A",
+        "text": "review"
+      },
+      {
+        "key": "B",
+        "text": "to review"
+      },
+      {
+        "key": "C",
+        "text": "reviewing"
+      },
+      {
+        "key": "D",
+        "text": "reviewed"
+      }
+    ],
+    "answer": "A",
+    "explain": "let 后的宾语补足语用不带 to 的动词原形。"
+  },
+  {
+    "id": "english-grammar-067",
+    "stem": "The manager asked us ___ on time.",
+    "options": [
+      {
+        "key": "A",
+        "text": "arrive"
+      },
+      {
+        "key": "B",
+        "text": "arriving"
+      },
+      {
+        "key": "C",
+        "text": "to arrive"
+      },
+      {
+        "key": "D",
+        "text": "arrived"
+      }
+    ],
+    "answer": "C",
+    "explain": "ask somebody to do，表示要求某人做某事。"
+  },
+  {
+    "id": "english-grammar-068",
+    "stem": "It is helpful ___ a clear example.",
+    "options": [
+      {
+        "key": "A",
+        "text": "give"
+      },
+      {
+        "key": "B",
+        "text": "to give"
+      },
+      {
+        "key": "C",
+        "text": "gave"
+      },
+      {
+        "key": "D",
+        "text": "given"
+      }
+    ],
+    "answer": "B",
+    "explain": "It is + 形容词 + to do，真正主语是不定式。"
+  },
+  {
+    "id": "english-grammar-069",
+    "stem": "She is busy ___ the equipment.",
+    "options": [
+      {
+        "key": "A",
+        "text": "check"
+      },
+      {
+        "key": "B",
+        "text": "to check"
+      },
+      {
+        "key": "C",
+        "text": "checked"
+      },
+      {
+        "key": "D",
+        "text": "checking"
+      }
+    ],
+    "answer": "D",
+    "explain": "be busy doing 表示忙于做某事。"
+  },
+  {
+    "id": "english-grammar-070",
+    "stem": "Thank you for ___ the issue.",
+    "options": [
+      {
+        "key": "A",
+        "text": "explain"
+      },
+      {
+        "key": "B",
+        "text": "explained"
+      },
+      {
+        "key": "C",
+        "text": "explaining"
+      },
+      {
+        "key": "D",
+        "text": "to explain"
+      }
+    ],
+    "answer": "C",
+    "explain": "介词 for 后接动名词 explaining。"
+  },
+  {
+    "id": "english-grammar-071",
+    "stem": "The video ___ by our team yesterday.",
+    "options": [
+      {
+        "key": "A",
+        "text": "edited"
+      },
+      {
+        "key": "B",
+        "text": "was edited"
+      },
+      {
+        "key": "C",
+        "text": "is editing"
+      },
+      {
+        "key": "D",
+        "text": "has editing"
+      }
+    ],
+    "answer": "B",
+    "explain": "视频被编辑，yesterday 提示一般过去时被动语态 was edited。"
+  },
+  {
+    "id": "english-grammar-072",
+    "stem": "English ___ in many countries.",
+    "options": [
+      {
+        "key": "A",
+        "text": "speaks"
+      },
+      {
+        "key": "B",
+        "text": "is spoken"
+      },
+      {
+        "key": "C",
+        "text": "is speaking"
+      },
+      {
+        "key": "D",
+        "text": "spoke"
+      }
+    ],
+    "answer": "B",
+    "explain": "英语被使用，用一般现在时被动语态 is spoken。"
+  },
+  {
+    "id": "english-grammar-073",
+    "stem": "The files will ___ tomorrow.",
+    "options": [
+      {
+        "key": "A",
+        "text": "send"
+      },
+      {
+        "key": "B",
+        "text": "sent"
+      },
+      {
+        "key": "C",
+        "text": "be sent"
+      },
+      {
+        "key": "D",
+        "text": "sending"
+      }
+    ],
+    "answer": "C",
+    "explain": "将来时被动语态为 will be + 过去分词。"
+  },
+  {
+    "id": "english-grammar-074",
+    "stem": "This form must ___ before Friday.",
+    "options": [
+      {
+        "key": "A",
+        "text": "submit"
+      },
+      {
+        "key": "B",
+        "text": "submitted"
+      },
+      {
+        "key": "C",
+        "text": "be submitted"
+      },
+      {
+        "key": "D",
+        "text": "submitting"
+      }
+    ],
+    "answer": "C",
+    "explain": "含情态动词的被动语态为 must be submitted。"
+  },
+  {
+    "id": "english-grammar-075",
+    "stem": "The room ___ every evening.",
+    "options": [
+      {
+        "key": "A",
+        "text": "cleans"
+      },
+      {
+        "key": "B",
+        "text": "is cleaned"
+      },
+      {
+        "key": "C",
+        "text": "cleaning"
+      },
+      {
+        "key": "D",
+        "text": "clean"
+      }
+    ],
+    "answer": "B",
+    "explain": "房间被打扫，用 is cleaned。"
+  },
+  {
+    "id": "english-grammar-076",
+    "stem": "Someone ___ my notebook. I cannot find it.",
+    "options": [
+      {
+        "key": "A",
+        "text": "has taken"
+      },
+      {
+        "key": "B",
+        "text": "is taken"
+      },
+      {
+        "key": "C",
+        "text": "takes yesterday"
+      },
+      {
+        "key": "D",
+        "text": "has took"
+      }
+    ],
+    "answer": "A",
+    "explain": "现在找不到笔记本，强调过去动作的当前结果，用 has taken。"
+  },
+  {
+    "id": "english-grammar-077",
+    "stem": "The camera needs ___.",
+    "options": [
+      {
+        "key": "A",
+        "text": "to check"
+      },
+      {
+        "key": "B",
+        "text": "checking"
+      },
+      {
+        "key": "C",
+        "text": "checked"
+      },
+      {
+        "key": "D",
+        "text": "check"
+      }
+    ],
+    "answer": "B",
+    "explain": "need doing 可表达被动含义，needs checking 表示需要被检查。"
+  },
+  {
+    "id": "english-grammar-078",
+    "stem": "We were ___ by the clear instructions.",
+    "options": [
+      {
+        "key": "A",
+        "text": "help"
+      },
+      {
+        "key": "B",
+        "text": "helping"
+      },
+      {
+        "key": "C",
+        "text": "helped"
+      },
+      {
+        "key": "D",
+        "text": "helps"
+      }
+    ],
+    "answer": "C",
+    "explain": "were ... by 表示被动语态，填过去分词 helped。"
+  },
+  {
+    "id": "english-grammar-079",
+    "stem": "A new plan is being ___ now.",
+    "options": [
+      {
+        "key": "A",
+        "text": "discuss"
+      },
+      {
+        "key": "B",
+        "text": "discusses"
+      },
+      {
+        "key": "C",
+        "text": "discussing"
+      },
+      {
+        "key": "D",
+        "text": "discussed"
+      }
+    ],
+    "answer": "D",
+    "explain": "is being + 过去分词构成现在进行时被动语态。"
+  },
+  {
+    "id": "english-grammar-080",
+    "stem": "The tickets have already been ___.",
+    "options": [
+      {
+        "key": "A",
+        "text": "buy"
+      },
+      {
+        "key": "B",
+        "text": "bought"
+      },
+      {
+        "key": "C",
+        "text": "buying"
+      },
+      {
+        "key": "D",
+        "text": "buys"
+      }
+    ],
+    "answer": "B",
+    "explain": "have been 后用过去分词；buy 的过去分词是 bought。"
+  },
+  {
+    "id": "english-grammar-081",
+    "stem": "If it rains, we ___ indoors.",
+    "options": [
+      {
+        "key": "A",
+        "text": "stay yesterday"
+      },
+      {
+        "key": "B",
+        "text": "will stay"
+      },
+      {
+        "key": "C",
+        "text": "stayed"
+      },
+      {
+        "key": "D",
+        "text": "had stayed"
+      }
+    ],
+    "answer": "B",
+    "explain": "第一条件句 if 从句用一般现在时，主句用 will 表示将来。"
+  },
+  {
+    "id": "english-grammar-082",
+    "stem": "If I ___ more time, I would practise again.",
+    "options": [
+      {
+        "key": "A",
+        "text": "have"
+      },
+      {
+        "key": "B",
+        "text": "had"
+      },
+      {
+        "key": "C",
+        "text": "will have"
+      },
+      {
+        "key": "D",
+        "text": "am having"
+      }
+    ],
+    "answer": "B",
+    "explain": "与现在事实相反的假设，if 从句用过去式 had。"
+  },
+  {
+    "id": "english-grammar-083",
+    "stem": "We will start when everyone ___.",
+    "options": [
+      {
+        "key": "A",
+        "text": "arrives"
+      },
+      {
+        "key": "B",
+        "text": "will arrive"
+      },
+      {
+        "key": "C",
+        "text": "arrived yesterday"
+      },
+      {
+        "key": "D",
+        "text": "have arrived"
+      }
+    ],
+    "answer": "A",
+    "explain": "将来时间状语从句用一般现在时，everyone 作单数。"
+  },
+  {
+    "id": "english-grammar-084",
+    "stem": "I stayed late ___ I needed to finish the edit.",
+    "options": [
+      {
+        "key": "A",
+        "text": "although"
+      },
+      {
+        "key": "B",
+        "text": "because"
+      },
+      {
+        "key": "C",
+        "text": "unless"
+      },
+      {
+        "key": "D",
+        "text": "until"
+      }
+    ],
+    "answer": "B",
+    "explain": "后半句说明留下来的原因，用 because。"
+  },
+  {
+    "id": "english-grammar-085",
+    "stem": "___ I was tired, I checked the file again.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because of"
+      },
+      {
+        "key": "B",
+        "text": "Despite"
+      },
+      {
+        "key": "C",
+        "text": "Although"
+      },
+      {
+        "key": "D",
+        "text": "Unless"
+      }
+    ],
+    "answer": "C",
+    "explain": "虽然疲惫仍检查，Although 引导让步从句。"
+  },
+  {
+    "id": "english-grammar-086",
+    "stem": "Take a jacket ___ it gets cold.",
+    "options": [
+      {
+        "key": "A",
+        "text": "in case"
+      },
+      {
+        "key": "B",
+        "text": "because of"
+      },
+      {
+        "key": "C",
+        "text": "despite"
+      },
+      {
+        "key": "D",
+        "text": "so as"
+      }
+    ],
+    "answer": "A",
+    "explain": "in case 引导从句，表示以防天气变冷。"
+  },
+  {
+    "id": "english-grammar-087",
+    "stem": "I will not leave ___ the backup is complete.",
+    "options": [
+      {
+        "key": "A",
+        "text": "until"
+      },
+      {
+        "key": "B",
+        "text": "because of"
+      },
+      {
+        "key": "C",
+        "text": "although of"
+      },
+      {
+        "key": "D",
+        "text": "during"
+      }
+    ],
+    "answer": "A",
+    "explain": "not ... until ... 表示直到备份完成才离开。"
+  },
+  {
+    "id": "english-grammar-088",
+    "stem": "The light was bright, ___ we turned it down.",
+    "options": [
+      {
+        "key": "A",
+        "text": "but"
+      },
+      {
+        "key": "B",
+        "text": "so"
+      },
+      {
+        "key": "C",
+        "text": "unless"
+      },
+      {
+        "key": "D",
+        "text": "or else if"
+      }
+    ],
+    "answer": "B",
+    "explain": "前后是原因和结果，用 so 表示因此。"
+  },
+  {
+    "id": "english-grammar-089",
+    "stem": "Please call me ___ you arrive.",
+    "options": [
+      {
+        "key": "A",
+        "text": "when"
+      },
+      {
+        "key": "B",
+        "text": "during"
+      },
+      {
+        "key": "C",
+        "text": "because of"
+      },
+      {
+        "key": "D",
+        "text": "despite"
+      }
+    ],
+    "answer": "A",
+    "explain": "when 引导时间从句，表示到达时。"
+  },
+  {
+    "id": "english-grammar-090",
+    "stem": "We can record outside ___ the weather stays dry.",
+    "options": [
+      {
+        "key": "A",
+        "text": "as long as"
+      },
+      {
+        "key": "B",
+        "text": "even though of"
+      },
+      {
+        "key": "C",
+        "text": "in spite"
+      },
+      {
+        "key": "D",
+        "text": "because of"
+      }
+    ],
+    "answer": "A",
+    "explain": "as long as 引导条件从句，表示只要。"
+  },
+  {
+    "id": "english-grammar-091",
+    "stem": "This is the person ___ helped us.",
+    "options": [
+      {
+        "key": "A",
+        "text": "which"
+      },
+      {
+        "key": "B",
+        "text": "who"
+      },
+      {
+        "key": "C",
+        "text": "where"
+      },
+      {
+        "key": "D",
+        "text": "when"
+      }
+    ],
+    "answer": "B",
+    "explain": "先行词 person 指人，关系代词 who 作从句主语。"
+  },
+  {
+    "id": "english-grammar-092",
+    "stem": "The file ___ you sent is useful.",
+    "options": [
+      {
+        "key": "A",
+        "text": "who"
+      },
+      {
+        "key": "B",
+        "text": "where"
+      },
+      {
+        "key": "C",
+        "text": "that"
+      },
+      {
+        "key": "D",
+        "text": "when"
+      }
+    ],
+    "answer": "C",
+    "explain": "先行词 file 指物，that 在定语从句中作宾语。"
+  },
+  {
+    "id": "english-grammar-093",
+    "stem": "This is the studio ___ we recorded the show.",
+    "options": [
+      {
+        "key": "A",
+        "text": "where"
+      },
+      {
+        "key": "B",
+        "text": "which we"
+      },
+      {
+        "key": "C",
+        "text": "who"
+      },
+      {
+        "key": "D",
+        "text": "whose"
+      }
+    ],
+    "answer": "A",
+    "explain": "从句缺地点状语，where 表示在这个演播室里。"
+  },
+  {
+    "id": "english-grammar-094",
+    "stem": "I know a teammate ___ camera is very small.",
+    "options": [
+      {
+        "key": "A",
+        "text": "who"
+      },
+      {
+        "key": "B",
+        "text": "whom"
+      },
+      {
+        "key": "C",
+        "text": "whose"
+      },
+      {
+        "key": "D",
+        "text": "which"
+      }
+    ],
+    "answer": "C",
+    "explain": "whose 表示所属，修饰 camera。"
+  },
+  {
+    "id": "english-grammar-095",
+    "stem": "Could you tell me where the station ___?",
+    "options": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "does"
+      },
+      {
+        "key": "C",
+        "text": "be"
+      },
+      {
+        "key": "D",
+        "text": "are"
+      }
+    ],
+    "answer": "A",
+    "explain": "间接疑问句用陈述语序，the station is。"
+  },
+  {
+    "id": "english-grammar-096",
+    "stem": "I do not know ___ he is available.",
+    "options": [
+      {
+        "key": "A",
+        "text": "that if"
+      },
+      {
+        "key": "B",
+        "text": "whether"
+      },
+      {
+        "key": "C",
+        "text": "what time is"
+      },
+      {
+        "key": "D",
+        "text": "which to"
+      }
+    ],
+    "answer": "B",
+    "explain": "whether 引导宾语从句，表示是否有空。"
+  },
+  {
+    "id": "english-grammar-097",
+    "stem": "She said that she ___ busy that afternoon.",
+    "options": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "was"
+      },
+      {
+        "key": "C",
+        "text": "will"
+      },
+      {
+        "key": "D",
+        "text": "has"
+      }
+    ],
+    "answer": "B",
+    "explain": "主句 said 为过去时，转述当时状态通常用 was。"
+  },
+  {
+    "id": "english-grammar-098",
+    "stem": "Neither the camera nor the lights ___ ready.",
+    "options": [
+      {
+        "key": "A",
+        "text": "is"
+      },
+      {
+        "key": "B",
+        "text": "was"
+      },
+      {
+        "key": "C",
+        "text": "are"
+      },
+      {
+        "key": "D",
+        "text": "be"
+      }
+    ],
+    "answer": "C",
+    "explain": "neither ... nor 连接主语时，谓语通常与最近的 lights 保持一致。"
+  },
+  {
+    "id": "english-grammar-099",
+    "stem": "Each of the clips ___ a clear title.",
+    "options": [
+      {
+        "key": "A",
+        "text": "have"
+      },
+      {
+        "key": "B",
+        "text": "has"
+      },
+      {
+        "key": "C",
+        "text": "are"
+      },
+      {
+        "key": "D",
+        "text": "were"
+      }
+    ],
+    "answer": "B",
+    "explain": "each of 作主语，中心词 each 为单数，谓语用 has。"
+  },
+  {
+    "id": "english-grammar-100",
+    "stem": "There ___ a microphone and two cables on the desk.",
+    "options": [
+      {
+        "key": "A",
+        "text": "are"
+      },
+      {
+        "key": "B",
+        "text": "be"
+      },
+      {
+        "key": "C",
+        "text": "is"
+      },
+      {
+        "key": "D",
+        "text": "have"
+      }
+    ],
+    "answer": "C",
+    "explain": "there be 通常采用就近一致，最近的 a microphone 为单数，用 is。"
+  }
+]

@@ -1,0 +1,202 @@
+{
+  "phase": "P2",
+  "verifiedAt": "2026-10-31T08:27:43.210Z",
+  "commands": {
+    "dev": {
+      "command": "npm run dev",
+      "status": "通过；最后实际使用原命令在5173启动成功，HTTP 200；额外验证5174也通过。临时服务与专用测试浏览器在交付前关闭，使用时双击启动工作台.cmd"
+    },
+    "test": {
+      "command": "npm test",
+      "files": 11,
+      "passed": 132,
+      "failed": 0,
+      "environment": "node"
+    },
+    "build": {
+      "command": "npm run build",
+      "status": "通过 strict TypeScript 和 Vite 生产构建",
+      "assets": [
+        {
+          "file": "dist/assets/index-CrPYxH6p.js",
+          "bytes": 253159,
+          "gzipBytes": 83548
+        },
+        {
+          "file": "dist/assets/index-CYAfxdxc.css",
+          "bytes": 31705,
+          "gzipBytes": 6272
+        }
+      ]
+    }
+  },
+  "browser": {
+    "engine": "Windows Chrome headless；手机尺寸模拟，非真实手机",
+    "phase": "P2",
+    "http": 200,
+    "checks": [
+      "首次带入3项及明日事项；手改/删除不被重入覆盖；显式补入新增且幂等；刷新草稿保留",
+      "空原因允许保存且高亮；取消不写copiedAt；仍要复制成功；真实系统剪贴板匹配预览；简短模板恰好3行",
+      "选择跨月7天周报；完成去重，数值/时长/峰值汇总；周稿保留手改；显式确认后重算；周报实际复制",
+      "设置中模板实时预览；修改内置保存个人副本且原版不变；默认模板生效；未知变量/三行校验；恢复默认及放弃修改确认",
+      "两种复制API均失败不写时间；execCommand实际降级成功；存储配额失败保留旧稿且明确提示；已复制但状态保存失败准确提示",
+      "实际导出JSON→清空→导入，日报/周报/个人模板/来源ID/复制时间/默认选择完整恢复且页面更新"
+    ],
+    "responsive": [
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/settings/templates",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "height": 740,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/settings/templates",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 375,
+        "height": 667,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/settings/templates",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "route": "/more/settings",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/more/report",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/more/settings/templates",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/home",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/plan",
+        "overflow": false
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "route": "/more/settings",
+        "overflow": false
+      }
+    ],
+    "browserErrors": []
+  },
+  "production": {
+    "checks": [
+      "dist 静态文件在 /workbench/ 子目录正确启动，脚本/样式加载成功；hash路由刷新、草稿持久化、真实剪贴板可用",
+      "同一 dist 在站点根目录启动正常；同源根目录/子目录使用相同本机数据"
+    ],
+    "browserErrors": [],
+    "server": "本机临时静态服务器；未连接用户服务器"
+  },
+  "visualReview": {
+    "files": [
+      "../p2-report-mobile.png",
+      "../p2-report-desktop.png",
+      "../p2-template-desktop.png",
+      "../p2-report-dark.png"
+    ],
+    "status": "已实际查看截图；修复删除按钮不足44px，修复输入区宽度，模板选择置于顶部"
+  },
+  "limits": [
+    "PWA 离线与安装留至P6",
+    "未部署用户HTTPS服务器，Nginx片段仅按官方文档核对，未运行Nginx",
+    "图片备份留至P4",
+    "未进行真实手机复制验收"
+  ],
+  "sources": [
+    {
+      "title": "Vite static deployment",
+      "url": "https://vite.dev/guide/static-deploy.html"
+    },
+    {
+      "title": "Nginx root/try_files",
+      "url": "https://nginx.org/en/docs/http/ngx_http_core_module.html#try_files"
+    }
+  ]
+}

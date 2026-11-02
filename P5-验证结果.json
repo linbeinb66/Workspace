@@ -1,0 +1,712 @@
+{
+  "phase": "P5",
+  "verifiedAt": "2026-11-01T21:20:23.109109+08:00",
+  "stackChanged": false,
+  "newDependencies": false,
+  "unit": {
+    "command": "npm test",
+    "files": 25,
+    "passed": 298,
+    "failed": 0,
+    "success": true
+  },
+  "build": {
+    "command": "npm run build",
+    "strictTypeScript": true,
+    "success": true,
+    "assets": [
+      {
+        "file": "dist/assets/english-content-BbKAeoef.js",
+        "bytes": 112176,
+        "gzipBytes": 30508,
+        "sha256": "c4de6b8a4606d458d8d863b2b9a23297ee2f4f76a42170ed53b9f3200ba61cb4"
+      },
+      {
+        "file": "dist/assets/index-AdeQ-n82.css",
+        "bytes": 44056,
+        "gzipBytes": 8046,
+        "sha256": "e3eba4e794efebccd1023df4ee48b86016555c73e56e8b82c328cc9733775c87"
+      },
+      {
+        "file": "dist/assets/index-CgV1jxJ6.js",
+        "bytes": 399229,
+        "gzipBytes": 128387,
+        "sha256": "327dbd47495cafc2092a6cac2d9e43e81d6fc0f222109fd7606b117a05c5ca98"
+      },
+      {
+        "file": "dist/favicon.svg",
+        "bytes": 271,
+        "gzipBytes": 213,
+        "sha256": "f9cc3c24c8e4ece58d9777c592250ac097407e4fc5d2d18c707e017cda5b8e16"
+      },
+      {
+        "file": "dist/index.html",
+        "bytes": 729,
+        "gzipBytes": 452,
+        "sha256": "b18ac2960ce9aab9ef28a6e080bace4004e978130b79b9d6bb638f21b0abcb1d"
+      }
+    ]
+  },
+  "content": {
+    "words": 300,
+    "commonCET4": 200,
+    "workplace": 100,
+    "sentences": 50,
+    "passages": 20,
+    "passageWordCount": [
+      60,
+      100
+    ],
+    "grammar": 100,
+    "origin": "authored locally; no external dataset"
+  },
+  "browser": {
+    "p5-browser-results.json": {
+      "origin": "http://127.0.0.1:5174",
+      "checks": [
+        "原生声线审计与缺少本地英语声线提示；凌晨02:30归前一天；300词首次补齐",
+        "受控本机声线：单词0.9、跟读1.0/0.7，lang=en-US；未验证真实出声",
+        "5新词+1次再练；unknown阶段0/错一次；刷新固定队列，已回答不能重答计数",
+        "生词本自动加入、取消与确认移出、只背生词本认识后移出；排期与累计不被重复修改",
+        "跟读手动完成/撤销/刷新；拒绝麦克风提示；Edge模拟音源录制、生成Blob、下载与关闭销毁（未用真实麦克风）",
+        "短文点词本地命中与未收录降级",
+        "5题首次作答/即时解析/错题自动收录与重练掌握；刷新不丢成绩，重练不改首次答案",
+        "CSV预览/取消/库内和文件内去重/确认加入/坏文件不覆盖；当天队列仍固定",
+        "真实JSON导出、清示例保留学习、清空全部、恢复取消与确认；英语进度/队列/答案/导入词恢复",
+        "凌晨4点生成新日、首次学习的5词次日到期进入复习；改日切不回溯旧队列与学习记录",
+        "320/375/390/768/1440布局与录音弹层无横向溢出；毛玻璃/深色截图"
+      ],
+      "nativeVoices": {
+        "localEnglish": [],
+        "onlineEnglish": 6
+      },
+      "speechMock": [
+        {
+          "text": "schedule",
+          "rate": 0.9,
+          "lang": "en-US",
+          "local": true
+        },
+        {
+          "text": "Would tomorrow afternoon work for you?",
+          "rate": 1,
+          "lang": "en-US",
+          "local": true
+        },
+        {
+          "text": "Would tomorrow afternoon work for you?",
+          "rate": 0.7,
+          "lang": "en-US",
+          "local": true
+        }
+      ],
+      "recording": {
+        "type": "audio/webm",
+        "size": 12863,
+        "source": "Edge fake media device"
+      },
+      "responsive": [
+        {
+          "width": 320,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "page": "recording-sheet",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "recording-sheet",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "recording-sheet",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "recording-sheet",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "recording-sheet",
+          "overflow": false
+        }
+      ],
+      "browserErrors": []
+    },
+    "p5-production-root-results.json": {
+      "origin": "http://127.0.0.1:4174",
+      "checks": [
+        "原生声线审计与缺少本地英语声线提示；凌晨02:30归前一天；300词首次补齐",
+        "受控本机声线：单词0.9、跟读1.0/0.7，lang=en-US；未验证真实出声",
+        "5新词+1次再练；unknown阶段0/错一次；刷新固定队列，已回答不能重答计数",
+        "生词本自动加入、取消与确认移出、只背生词本认识后移出；排期与累计不被重复修改",
+        "跟读手动完成/撤销/刷新；拒绝麦克风提示；Edge模拟音源录制、生成Blob、下载与关闭销毁（未用真实麦克风）",
+        "短文点词本地命中与未收录降级",
+        "5题首次作答/即时解析/错题自动收录与重练掌握；刷新不丢成绩，重练不改首次答案",
+        "CSV预览/取消/库内和文件内去重/确认加入/坏文件不覆盖；当天队列仍固定",
+        "真实JSON导出、清示例保留学习、清空全部、恢复取消与确认；英语进度/队列/答案/导入词恢复",
+        "凌晨4点生成新日、首次学习的5词次日到期进入复习；改日切不回溯旧队列与学习记录",
+        "320/375/390/768/1440布局与录音弹层无横向溢出；毛玻璃/深色截图"
+      ],
+      "nativeVoices": {
+        "localEnglish": [],
+        "onlineEnglish": 6
+      },
+      "speechMock": [
+        {
+          "text": "schedule",
+          "rate": 0.9,
+          "lang": "en-US",
+          "local": true
+        },
+        {
+          "text": "Would tomorrow afternoon work for you?",
+          "rate": 1,
+          "lang": "en-US",
+          "local": true
+        },
+        {
+          "text": "Would tomorrow afternoon work for you?",
+          "rate": 0.7,
+          "lang": "en-US",
+          "local": true
+        }
+      ],
+      "recording": {
+        "type": "audio/webm",
+        "size": 12863,
+        "source": "Edge fake media device"
+      },
+      "responsive": [
+        {
+          "width": 320,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "page": "recording-sheet",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "recording-sheet",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "recording-sheet",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "recording-sheet",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "recording-sheet",
+          "overflow": false
+        }
+      ],
+      "browserErrors": []
+    },
+    "p5-production-sub-results.json": {
+      "origin": "http://127.0.0.1:4174/workbench",
+      "checks": [
+        "原生声线审计与缺少本地英语声线提示；凌晨02:30归前一天；300词首次补齐",
+        "受控本机声线：单词0.9、跟读1.0/0.7，lang=en-US；未验证真实出声",
+        "5新词+1次再练；unknown阶段0/错一次；刷新固定队列，已回答不能重答计数",
+        "生词本自动加入、取消与确认移出、只背生词本认识后移出；排期与累计不被重复修改",
+        "跟读手动完成/撤销/刷新；拒绝麦克风提示；Edge模拟音源录制、生成Blob、下载与关闭销毁（未用真实麦克风）",
+        "短文点词本地命中与未收录降级",
+        "5题首次作答/即时解析/错题自动收录与重练掌握；刷新不丢成绩，重练不改首次答案",
+        "CSV预览/取消/库内和文件内去重/确认加入/坏文件不覆盖；当天队列仍固定",
+        "真实JSON导出、清示例保留学习、清空全部、恢复取消与确认；英语进度/队列/答案/导入词恢复",
+        "凌晨4点生成新日、首次学习的5词次日到期进入复习；改日切不回溯旧队列与学习记录",
+        "320/375/390/768/1440布局与录音弹层无横向溢出；毛玻璃/深色截图"
+      ],
+      "nativeVoices": {
+        "localEnglish": [],
+        "onlineEnglish": 6
+      },
+      "speechMock": [
+        {
+          "text": "schedule",
+          "rate": 0.9,
+          "lang": "en-US",
+          "local": true
+        },
+        {
+          "text": "Would tomorrow afternoon work for you?",
+          "rate": 1,
+          "lang": "en-US",
+          "local": true
+        },
+        {
+          "text": "Would tomorrow afternoon work for you?",
+          "rate": 0.7,
+          "lang": "en-US",
+          "local": true
+        }
+      ],
+      "recording": {
+        "type": "audio/webm",
+        "size": 12549,
+        "source": "Edge fake media device"
+      },
+      "responsive": [
+        {
+          "width": 320,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "page": "recording-sheet",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "recording-sheet",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "recording-sheet",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "recording-sheet",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "/english",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "/more/settings",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "recording-sheet",
+          "overflow": false
+        }
+      ],
+      "browserErrors": []
+    },
+    "p5-edge-cases.json": {
+      "checks": [
+        "浏览器实际注入第二分区QuotaExceededError：提示、评分和队列一起回滚，恢复写入后可重试",
+        "模拟音源录音的原生audio.play实际推进，停止后全部音轨ended，关闭移除播放器",
+        "切后台触发停止录音和音轨释放",
+        "等待权限时关闭弹层，稍后返回的麦克风流立即释放",
+        "无MediaRecorder时明确提示，学习功能继续可用",
+        "缺少TTS API时明确提示，页面/语法正常",
+        "已载入页面断网后仍可切模块练习与查词；没有测试离线刷新（P6）"
+      ],
+      "browserErrors": [],
+      "recordingSource": "fake media device; no real microphone or audible output verified"
+    },
+    "p5-expense-regression.json": {
+      "origin": "http://127.0.0.1:4174",
+      "checks": [
+        {
+          "check": "真实2400×1800噪声PNG压缩≤1280/300KB；缩略图刷新持久化/大图可看；三张限制；编辑移除同步清理",
+          "image": {
+            "id": "7e1295a9-35b1-45e5-9cbb-8a223434c944",
+            "key": "receipt/7e1295a9-35b1-45e5-9cbb-8a223434c944",
+            "thumbKey": "receipt/7e1295a9-35b1-45e5-9cbb-8a223434c944/thumb",
+            "width": 1024,
+            "height": 768,
+            "size": 277616,
+            "demo": false,
+            "updatedAt": "2026-10-24T04:00:00.000Z"
+          }
+        },
+        "日切0/6均不改变消费日期；凌晨02:30默认自然11月；超过7天按createdAt标黄；示例清理不动本人含图记录；标签持久化；跨月到账/审批合并/个人与垫付隔离",
+        "三笔清单纯文本/连续序号/12.64元精确合计，真实剪贴板一致且状态不变；CSV有BOM且只导出整月当前标签；组合筛选正确",
+        "含图片JSON真实下载→删除含图记录及IDB副本→确认恢复→刷新图仍在；base64不进localStorage；损坏备份不写数据",
+        "100笔记录按20笔加载，无白屏；真实触摸左滑进入删除确认，取消不删",
+        "清空全部同时清理凭证IDB；桌面/手机/深色和毛玻璃页面可用"
+      ],
+      "responsive": [
+        {
+          "width": 320,
+          "page": "/more/expense",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "page": "/more/backup",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "page": "/fitness",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "page": "/home",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "page": "/plan",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "page": "/more/report",
+          "overflow": false
+        },
+        {
+          "width": 320,
+          "page": "expense-editor",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "/more/expense",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "/more/backup",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "/fitness",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "/home",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "/plan",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "/more/report",
+          "overflow": false
+        },
+        {
+          "width": 375,
+          "page": "expense-editor",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "/more/expense",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "/more/backup",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "/fitness",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "/home",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "/plan",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "/more/report",
+          "overflow": false
+        },
+        {
+          "width": 390,
+          "page": "expense-editor",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "/more/expense",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "/more/backup",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "/fitness",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "/home",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "/plan",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "/more/report",
+          "overflow": false
+        },
+        {
+          "width": 768,
+          "page": "expense-editor",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "/more/expense",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "/more/backup",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "/fitness",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "/home",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "/plan",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "/more/report",
+          "overflow": false
+        },
+        {
+          "width": 1440,
+          "page": "expense-editor",
+          "overflow": false
+        }
+      ],
+      "browserErrors": []
+    },
+    "p5-plan-regression.json": {
+      "origin": "http://127.0.0.1:4174",
+      "checks": [
+        "旧设置显示内置目录；新增计划、两个训练日与动作；组次/0秒休息保存；动作和训练日排序；刷新保留",
+        "一键带入自定义4组与5~8次，首次默认8次，0秒不计时；只存已勾完成组；编辑/删除训练日及动作不回改已创建场次",
+        "未保存修改可返回或放弃；删除确认可取消；删除当前计划保留训练/组/快照且刷新不复活；真实JSON导出恢复自定义目录和选中项",
+        "320/390/1440编辑器无横向溢出；内置也可删除；全删空刷新保留，历史仍在；空目录可再次新增"
+      ],
+      "responsive": [
+        {
+          "width": 320,
+          "editorOverflow": false
+        },
+        {
+          "width": 390,
+          "editorOverflow": false
+        },
+        {
+          "width": 1440,
+          "editorOverflow": false
+        }
+      ],
+      "browserErrors": []
+    },
+    "p5-final-smoke.json": {
+      "checks": [
+        {
+          "base": "http://127.0.0.1:4174/",
+          "finalBundleLoaded": true,
+          "english": true
+        },
+        {
+          "base": "http://127.0.0.1:4174/workbench/",
+          "finalBundleLoaded": true,
+          "english": true
+        }
+      ],
+      "browserErrors": [],
+      "finalMainBundle": "index-CgV1jxJ6.js",
+      "finalContentBundle": "english-content-BbKAeoef.js",
+      "screenshots": "native voice status; no speech mock in this smoke check"
+    }
+  },
+  "limitations": [
+    "No real phone microphone, speaker or offline audible TTS verified. Native Edge has no local English voice; fallback verified.",
+    "TTS parameter checks used an instrumented voice. Recording used Edge fake media device; real audio element playback advanced.",
+    "Already-loaded offline use verified; offline page reload, installation and update are P6.",
+    "Temporary recordings are not in JSON; download before closing. Wallpaper media is exported separately.",
+    "No access to user server; deployment checked on local static root and /workbench/."
+  ],
+  "screenshots": [
+    "p5-english-desktop.png",
+    "p5-english-word-mobile.png",
+    "p5-english-grammar-mobile.png",
+    "p5-english-dark-mobile.png"
+  ],
+  "qaCleanup": {
+    "ownedBrowserClosed": true,
+    "ownedTestPortsStopped": [
+      5174,
+      4174,
+      9338
+    ],
+    "userBrowserAndOtherServicesUntouched": true
+  }
+}
